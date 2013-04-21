@@ -1,0 +1,119 @@
+@charset "utf-8";
+/*-------------------css reset--------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, 
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, 
+big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, 
+small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, 
+thead, tr, th, td { 
+margin: 0; 
+padding: 0; 
+border: 0; 
+outline: 0; 
+font-weight:normal; 
+font-style: inherit; 
+font-size: 100%; 
+font-family: inherit; 
+vertical-align: baseline; 
+} 
+:focus { 
+outline: 0; 
+} 
+table { 
+border-collapse: separate; 
+border-spacing: 0; 
+} 
+caption, th, td { 
+text-align: left; 
+font-weight: normal; 
+} 
+a img, iframe { 
+border: none; 
+}
+ul,ol{ 
+list-style: none; 
+}
+input, textarea, select, button { 
+font-size: 100%; 
+font-family: inherit; 
+} 
+select { 
+margin: inherit; 
+} 
+
+/* == clearfix == */ 
+.clearfix:after { 
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden; 
+} 
+.clearfix {display: inline-block;} 
+* html .clearfix {height: 1%;} 
+.clearfix {display: block;}
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+.vh { 
+	border: 0; 
+	clip: rect(0 0 0 0); 
+	height: 1px; 
+	margin: -1px; 
+	overflow: hidden; 
+	padding: 0; 
+	position: absolute; 
+	width: 1px; 
+}
+
+/*-------------------公共--------------------------*/
+body{font-size:12px; line-height:1.5; font-family:'宋体',Arial, Helvetica, sans-serif;color:#333333;}
+a{text-decoration:none;color:#333;}
+a:hover,
+a.hover{color:red;}
+.fl,.tab .h li{float:left; display:inline;}
+.fr{float:right;display:inline;}
+strong,h1,h2,h2 a,h3,h3 a,dt{font-weight:bold;}
+fieldset{_display:inline;}
+.h{position:relative;}
+.hr{position:absolute; right:12px; top:14px;}
+.tab .b{display:none;}
+.tab .active{display:block;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+h2{font-size:15px; color:#002f7c;}
+button{border:none; cursor:pointer; width:57px; height:27px; line-height:27px; color:#fff;}
+.more{background:url(../img/more.png) no-repeat; display:block; width:38px; height:5px; text-indent:-999em;}
+/*-------------------头部--------------------------*/
+#h .r1{background:url(../img/h-r1.png) repeat-x; height:35px; line-height:35px;}
+#h .r1 .c2{margin-left:10px;}
+#h .r1 .c3 a{padding-left:20px; display:inline-block; height:16px; line-height:16px; _vertical-align:-8px;}
+#h .r1 .a1{background:url(../img/h-r1-a1.png) no-repeat}
+#h .r1 .a2{background:url(../img/h-r1-a2.png) no-repeat}
+#h .r2{background:url(../img/h-r2.png) repeat-x;}
+#h .r2 .w{background:url(../img/h-r2-w.jpg) no-repeat center top; height:92px;}
+#h .r2 img{margin:20px 0 0 15px;}
+#h .r3{margin-bottom:9px; background:url(../img/h-r3.png) no-repeat center top; padding-top:10px;}
+#h .r3 .c1{width:178px;}
+#h .r3 .c3{width:161px;}
+#h .r3 a{color:#0472c6; line-height:24px;}
+#h .r4{background:url(../img/nav.png) no-repeat center top; height:47px; padding-left:10px;}
+#h .r4 li{float:left; display:inline; background:url(../img/nav-li.png) no-repeat left center; height:37px; line-height:37px;}
+#h .r4 .first{background:none;}
+#h .r4 a{display:block; padding:0 25px; color:#fff;}
+#h .r4 a:hover{color:red;}
+#h .r5{background:url(../img/h-r5.jpg) no-repeat center bottom; height:98px; margin-top:-9px; margin-bottom:4px;}
+#h .r5 .c{width:240px;}
+#h .r5 ul{margin:20px 0 0 87px;}
+#h .r5 li{line-height:23px; line-height:23px;}
+#h .r5 a{margin:0 10px;}
+#h .r6{ background:url(../img/h-r6.jpg) no-repeat center; height:62px; margin-bottom:10px;}
+#h .r6 .w{ padding-top:24px;}
+#h .r6 .c1{padding-left:52px;}
+#h .r6 .c{margin-right:5px;}
+#h .r6 .c3 img{ vertical-align:-5px; margin-left:5px;}
+#h .r6 input,
+#h .r6 select{ height:23px; line-height:23px; margin-right:5px; border:1px solid #8FAFCB; border-radius:3px;}
+#search-txt{background:#fff url(../img/search-txt.jpg) no-repeat 7px center; padding-left:32px; width:175px;}
+#search-btn{background:url(../img/search-btn.png) no-repeat;}
+#username{background:#fff url(../img/username.jpg) no-repeat 7px center; padding-left:32px; width:85px;}
+#password{background:#fff url(../img/password.jpg) no-repeat 7px center; padding-left:32px; width:85px;}
+#login-btn{background:url(../img/login-btn.png) no-repeat;}
