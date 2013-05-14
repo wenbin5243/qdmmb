@@ -1,0 +1,877 @@
+ @charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, 
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, 
+big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, 
+small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, 
+thead, tr, th, td { 
+margin: 0; 
+padding: 0; 
+border: 0; 
+outline: 0; 
+font-weight:normal; 
+font-style: inherit; 
+font-size: 100%; 
+font-family: inherit; 
+vertical-align: baseline; 
+} 
+:focus { 
+outline: 0; 
+} 
+table { 
+border-collapse: collapse; 
+border-spacing: 0; 
+} 
+caption, th, td { 
+text-align: left; 
+font-weight: normal; 
+} 
+a img, iframe { 
+border: none; 
+}
+ul,ol{ 
+list-style: none; 
+}
+input, textarea, select, button { 
+font-size: 100%; 
+font-family: inherit; 
+} 
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+.fl{
+	float:left;
+	display:inline;
+}
+.fr{
+	float:right;
+	display:inline;
+}
+.r{
+	font-size:12px;
+}
+#h .w{
+	width:962px;
+	margin:0 auto;
+}
+a{
+	text-decoration:none;
+}
+#h .r1{
+	background:url(images/h-r1.png)repeat-x;
+	line-height:35px;
+}
+#h .r1 .c2{
+	background:url(images/h-r1-c2.png)no-repeat;
+	padding-left:44px;
+}
+#h .r1 .a1{
+	background:url(images/h-r1-c3-a1.png)no-repeat;
+	padding-left:25px;
+}
+#h .r1 .a2{
+	background:url(images/h-r1-c3-a2.png)no-repeat;
+	padding-left:25px;
+}
+#h .r2{
+	background:url(images/h-r2.png)repeat-x;
+	height:98px;
+}
+#h .r2 .w{
+	background:url(images/h-r2-w.png)no-repeat;
+	height:98px;
+}
+#h .r2 img{
+	margin:10px 0 0 10px;
+}
+#h .r3 li{
+	line-height:24px;
+}
+#h .r3 .c1{
+	margin-left:10px;
+}
+#h .r3 .c2{
+	margin-left:10px;
+}
+#h .r3 .c3{
+	margin-right:10px;
+}
+#h .r4{
+	background:url(images/h-r4.png)center no-repeat;
+	height:45px;
+}
+#h .r4 li{
+	float:left;
+	width:86px;
+	text-align:center;
+	line-height:32px;
+}
+#h .r4  a{
+	color:#FFF;
+}
+#h .r4 li a:hover{
+	color:#F00;
+}
+#h .r5{
+	background:url(images/h-r5.gif)no-repeat center bottom;
+	height:98px;
+	margin-top:-10px;
+}
+#h .r5 .c{
+	width:240px;
+}
+#h .r5 ul{
+	margin:15px 0 0 90px;
+}
+#h .r5 ul li{
+	line-height:23px;	
+}
+#h .r5 li a{
+	margin:0 10px;
+}
+#h .r5 li a:hover{
+	color:#F00;
+}
+#h .r5 .a1{
+	color:#F00;
+}
+#h .r6{
+	background:url(images/h-r6.png)no-repeat center;
+	height:62px;
+}
+#h .r6 .w{
+	padding-top:20px;
+}
+#h .r6 input{
+	height:22px;
+	border:1px solid #CCC;
+}
+#h .r6 .c1{
+	padding-left:52px;
+}
+#a1{
+	background:#FFF url(images/h-r6-c1-1.gif)no-repeat;
+	padding-left:20px;
+	width:195px;
+}
+#search-btn{
+	background:url(images/h-r6-c1-ss.gif)no-repeat;
+	border:none;
+	width:55px;
+	height:25px;
+	color:#FFF;
+}
+
+#zh{
+	background:#FFF url(images/h-r6-c2-1.gif)no-repeat 7px;
+	padding-left:30px;
+	width:80px;
+}
+#mm{
+	background:#FFF url(images/h-r6-c2-2.gif)no-repeat 7px;
+	padding-left:30px;
+	width:80px;
+}
+#h .r6 .c2{
+	margin-left:10px;
+}
+#login-btn{
+	background:url(images/h-r6-c2.png)no-repeat;
+	border:none;
+	width:55px;
+	height:25px;
+	color:#FFF;
+}
+#h .r6 .c3{
+	margin-right:15px;
+}
+#h .r6 .c3 a{
+	padding:0 8px;
+}
+#h .r6 .c3 img{
+	padding-top:3px;
+	vertical-align:-8px;
+}
+.m{
+	padding:0;
+	margin:0;
+}
+.w{
+	width:962px;
+	margin:0 auto;
+}
+#bd .r{
+	margin-top:10px;
+}
+#bd p{
+	text-indent:2em;
+}
+/*幻灯*/
+.m1{
+	border:1px solid #CCC;
+	width:507px;
+}
+.m1 img{
+	margin:4px;
+}
+.m1 h2{
+	margin:10px 0 20px 15px;
+	font-family:"黑体";
+	font-size:18px;
+}
+/*===========================================锐头条===========================================*/
+.m2{
+	width:438px;
+	margin:0 auto;
+}
+.m2 .h{
+	background:url(images/bdr1c2.png)no-repeat;
+	height:40px;
+}
+.m2 .h h2{
+	font-size:18px;
+	color:#FFF;
+	margin:4px 0 0 5px;
+}
+.m2 .hr{
+	float:right;
+	margin:-15px 10px 0 0;
+}
+.m2 .b h2{
+	font-size:20px;
+	font-family:"黑体";
+	text-align:center;
+	line-height:41px;
+}
+.m2 .b p{
+	line-height:23px;
+}
+/*===========================================精华帖===========================================*/
+.m3 .h{
+	background:url(images/bd-r2-c1.png)no-repeat;
+}
+.m3 .h h2{
+	padding:15px 0 0 25px;
+}
+.m3{
+	width:320px;
+	border:1px solid #CCC;
+	margin:10px 0;
+	line-height:24px;
+}
+.m3 ul{
+	width:270px;
+	margin:0 auto;
+}
+.m3 li a:hover{
+	color:#F00;
+}
+.m3 .b ul li {
+	border-bottom: 1px gray dashed;
+	text-indent: 2em;
+	line-height: 28px;
+}
+.m3 li.a1{
+	background:url(images/bd-r2-c1-b-1.gif)no-repeat 7px;
+}
+.m3 li.a2{
+	background:url(images/bd-r2-c1-b-2.gif)no-repeat 7px;
+}
+.m3 li.a3{
+	background:url(images/bd-r2-c1-b-3.gif)no-repeat 7px;
+}
+.m3 li.a4{
+	background:url(images/bd-r2-c1-b-4.gif)no-repeat 7px;
+}
+.m3 li.a5{
+	background:url(images/bd-r2-c1-b-5.gif)no-repeat 7px;
+}
+.m3 li.a6{
+	background:url(images/bd-r2-c1-b-6.gif)no-repeat 7px;
+}
+.m3 li.a7{
+	background:url(images/bd-r2-c1-b-7.gif)no-repeat 7px;
+}
+.m3 li.a8{
+	background:url(images/bd-r2-c1-b-8.gif)no-repeat 7px;
+}
+.m3 li.a9{
+	background:url(images/bd-r2-c1-b-9.gif)no-repeat 7px;
+}
+.m3 li.a10{
+	background:url(images/bd-r2-c1-b-10.gif)no-repeat 7px;
+}
+.m3 li a{
+	color:#000;
+}
+.m3 .br{
+	padding:25px 0px 24px 260px;
+}
+/*===========================================社区热帖===========================================*/
+.m4{
+	background:url(images/bd-r2-c2.gif)no-repeat;
+	width:330px;
+	border:1px solid #CCC;
+	margin:9px 0 10px 8px;
+}
+.m4 .h h2{
+	margin:10px 0 0 25px;
+}
+.m4 ul{
+	width:290px;
+	padding:14px 0;
+	margin:0 auto;
+}
+.m4 ul.a1{
+	border-bottom: 1px gray dashed;
+}
+.m4 ul li{
+	line-height:22px;
+}
+.m4 li a:hover{
+	color:#F00;
+}
+.m4 a{
+	color:#000;
+}
+.m4 li.ba{
+	background:url(images/m4ba.png)no-repeat 7px;
+	padding-left:15px;
+}
+/*===========================================喜欢的板块===========================================*/
+.m5{
+	margin:10px 0 7px 0;
+	width:288px;
+	background:url(images/m4c3.png)no-repeat;
+	border:1px solid #CCC;
+}
+.m5 .h h2{
+	margin:10px 0 0 10px;
+}
+.m5 .b ul{
+	margin-top:5px;
+	height:90px;
+}
+.m5 .b li{
+	list-style:none;
+	text-align:center;
+}
+.m5 .bt ul{
+	margin:10px 10px 6px 50px;
+	height:28px;
+}
+.m5 .bt ul li{
+	float:left;
+	line-height:25px;
+}
+.m5 .bt a{
+	color:#FFF;
+}
+.m5 .bt li.aa{
+	background:url(images/h-r6-c2.png)no-repeat;
+	width:60px;
+}
+.m5 .bt li.ab{
+	background:url(images/m5btab.png)no-repeat;
+	width:70px;
+}
+.m5 .bt li.ac{
+	background:url(images/m5btab.png)no-repeat;
+	width:70px;
+}
+/*有话要说*/
+.m6{
+	width:288px;
+	background:url(images/m4c3.png)no-repeat;
+	border:1px solid #CCC;
+}
+.m6 .h h2{
+	margin:10px 0 0 10px;
+}
+.m6 .h .hr{
+	float:right;
+	margin:-25px 20px 0 0;
+}
+.m6 .b{
+	margin-left:10px;
+	height:160px;
+}
+.m6 .b .fl{
+	border:1px solid #CCC;
+	margin:7px 10px 0 0;
+}
+.m6 .b .fl img{
+	margin:1px;
+}
+.m6 .b1 h2{
+	font-weight:bold;
+	margin-top:6px;
+}
+.m6 .b1 p{
+	line-height:20px;
+	margin:0 10px 0 0	;
+}
+.m6 .b2 li{
+	border-bottom: 1px gray dashed;
+	width:260px;
+	margin:0 auto;
+	line-height:26px;
+}
+.m6 .bf{
+	float:right;
+	margin:10px 0 0 0;
+	background:url(images/m6bf.png)no-repeat;
+	height:28px;
+}
+.m6 .bf a{
+	color:#FFF;
+	padding-left:15px;
+	line-height:24px;
+}
+/*===========================================热点活动===========================================*/
+.m7{
+	width:668px;
+	background:url(images/m7.gif)no-repeat;
+	border:1px solid #CCC;
+}
+.m7 .h h2{
+	margin:5px 0 15px 10px;
+}
+.m7 .h h3{
+	float:right;
+	margin:-30px 20px 0 0;
+}
+.m7 a{
+	color:#000;
+	font-weight:bold;
+}
+.m7 .b{
+	padding-bottom:15px;
+}
+.m7 .b1{
+	float:left;
+	width:320px;
+}
+.m7 .b1 img{
+	float:left;
+	border:1px solid #CCC;
+	margin:5px 5px 20px 10px;
+}
+.m7 .b1 h3{
+	font-weight:bold;
+	padding-top:5px;
+}
+.m7 .b1 p{
+	line-height:20px;
+}
+.m7 .b2{
+	float:left;
+	width:310px;
+	margin:5px 0 20px 25px;
+}
+.m7 .b2 img{
+	float:left;
+	border:1px solid #CCC;
+	margin:0 5px 0 0;
+}
+.m7 .b2 h3{
+	font-weight:bold;
+}
+.m7 .b2 p{
+	line-height:20px;
+}
+
+.m7 .b3{
+	float:left;
+	width:320px;
+}
+.m7 .b3 img{
+	margin-top:5px;
+	border:1px solid #CCC;
+}
+.m7 .b3 h3{
+	margin-top:5px;
+	font-weight:bold;
+}
+.m7 .b3 img{
+	margin:5px 5px 0 10px;
+	float:left;
+	border:1px solid #CCC;
+}
+.m7 .b3 p{
+	line-height:20px;
+}
+
+.m7 .b4{
+	float:left;
+	width:330px;
+}
+.m7 .b4 img{
+	float:left;
+	border:1px solid #CCC;
+	margin:5px 5px 0 25px;
+}
+.m7 .b4 h3{
+	margin-top:5px;
+	font-weight:bold;
+}
+.m7 .b4 p{
+	line-height:20px;
+}
+/*===========================================商家优惠===========================================*/
+.m8{
+	width:280px;
+	border:1px solid #CCC;
+}
+.m8 .h{
+	margin-bottom:10px;
+}
+.m8 .bl{
+	float:left;
+	margin:0 10px;
+}
+.m8 .br{
+	margin-right:10px;
+}
+.m8 .br h3 a{
+	font-weight:bold;
+}
+.m8 .br p{
+	line-height:21px;
+}
+.m8 ul{
+	margin-left:15px;
+	width:240px;
+	margin-bottom:14px;
+}
+.m8 li{
+	list-style:inside;
+	line-height:25px;
+	border-bottom: 1px gray dashed;
+}
+.m8 li a{
+	color:#000;
+}
+/*===========================================房产===========================================*/
+.m9{
+	width:328px;
+	border:1px solid #CCC;
+	background:url(images/bd-r2-c2.gif)no-repeat;
+	margin-right:9px;
+}
+.m9 .h h2{
+	margin:10px 0 5px 10px;
+}
+.m9 .h h3{
+	float:right;
+	margin:-30px 15px 0 0;
+}
+.m9 .b{
+	margin-bottom:10px;
+}
+.m9 .b img{
+	float:left;
+	margin:5px 10px 0px 10px;
+}
+.m9 .b h3{
+	margin-top:5px;
+}
+.m9 .b h3 a{
+	font-weight:bold;
+	color:#000;
+}
+.m9 .b p{
+	line-height:22px;
+	margin-bottom:15px;
+}
+.m9 ul{
+	margin-left:20px;
+	width:250px;
+}
+.m9 li{
+	list-style:inside;
+	line-height:26px;
+	border-bottom: 1px gray dashed;
+	
+}
+/*===========================================吃喝玩乐===========================================*/
+.m10{
+	width:329px;
+	background:url(images/bd-r2-c2.gif)no-repeat;
+	border:1px solid #CCC;
+}
+.m10 .h h2{
+	margin:10px 0 10px 10px;
+}
+.m10 .hr{
+	float:right;
+	margin:-30px 15px 0 0;
+}
+.m10 .b{
+	margin-bottom:10px;
+}
+.m10 .b img{
+	margin:0 10px 10px 10px;
+}
+.m10 .b .br h2 a{
+	font-weight:bold;
+	color:#000;
+}
+.m10 .br p{
+	margin-right:15px;
+	line-height:22px;
+	margin-bottom:15px;
+}
+.m10 .b2 ul{
+	width:250px;
+	margin-left:30px;
+}
+.m10 .b2 li{
+	list-style:outside;
+	line-height:26px;
+	border-bottom: 1px gray dashed;	
+}
+/*=======================================婚恋亲子===========================================*/
+.m11{
+	width:282px;
+	background:url(images/m4c3.png)no-repeat;
+	border:1px solid #CCC;
+}
+.m11 .h h2{
+	margin:10px 0 10px 10px;
+}
+.m11 .hr{
+	float:right;
+	margin:-30px 15px 0 0;
+}
+.m11 .b{
+	margin-bottom:8px;
+}
+.m11 .b img{
+	float:left;
+	margin:0 10px 10px 10px;
+}
+.m11 .b h2 a{
+	line-height:20px;
+	font-weight:bold;
+	color:#000;
+}
+.m11 .b p{
+	margin-right:4px;
+	line-height:19px;
+	margin-bottom:14px;
+}
+.m11 ul{
+	margin-left:15px;
+	width:220px;
+}
+.m11 li{
+	list-style:inside;
+	line-height:28px;
+	border-bottom: 1px gray dashed;	
+}
+/*===============================精彩图片=============================================*/
+.m12 .h{
+	margin-bottom:10px;
+}
+.m12 .h h2{
+	margin-left:20px;
+}
+.m12 .hr{
+	float:right;
+	margin:-10px 15px 0 0;
+}
+.m12 .b{
+	background:url(images/m12b.png)no-repeat;
+	width:960px;
+	border:1px solid #CCC;
+}
+.m12 .b dl {
+	position: relative;
+	float: left;
+	display: inline;
+	padding: 1px;
+}
+.m12 dt a {
+	color: #fff;
+}
+.m12 .b1 .bt img, .m12 .b3 .bt img {
+	width: 162px;
+	height: 108px;
+}
+.m12 .b .bb img {
+	width: 326px;
+	height: 222px;
+}
+.m12 .b1, .m12 .b3 {
+	width: 328px;
+}
+.m12 .b2 {
+	width: 303px;
+}
+.m12 .b1 .bt dt, .m12 .b3 .bt dt {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: transparent;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+	zoom: 1;
+	background: rgba(0,0,0,0.3);
+	width: 100%;
+	height: 29px;
+	line-height: 29px;
+	text-align: center;
+	width: 163px;
+}
+.m12 .b2 dt {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: transparent;
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000, endColorstr=#33000000);
+	zoom: 1;
+	background: rgba(0,0,0,0.3);
+	width: 99%;
+	height: 29px;
+	line-height: 29px;
+	text-align: center;
+	width: 150px;
+}
+.m12 .bb dt {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: transparent;
+ filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+	zoom: 1;
+	background: rgba(0,0,0,0.3);
+	width: 100%;
+	height: 29px;
+	line-height: 29px;
+	text-align: center;
+}
+/*===========================================海峡商城===========================================*/
+.m13{
+	width:328px;
+	border:1px solid #CCC;
+	background:url(images/bd-r2-c2.gif)no-repeat;
+	margin-right:9px;
+}
+.m13 .h h2{
+	margin:10px 0 10px 10px;
+}
+.m13 .h .hr{
+	float:right;
+	margin:-30px 15px 0 0;
+}
+.m13 .fl img{
+	float:left;
+	margin:5px 10px 0px 10px;
+}
+.m13 .b h3{
+	margin-top:5px;
+}
+.m13 .br h2 a{
+	font-weight:bold;
+	color:#000;
+}
+.m13 .br p{
+	line-height:24px;
+	margin-bottom:10px;
+}
+.m13 ul{
+	margin-left:30px;
+	width:250px;
+	margin-bottom:10px;
+}
+.m13 li{
+	list-style:outside;
+	line-height:26px;
+	border-bottom: 1px gray dashed;
+	
+}
+/*===========================================投资理财===========================================*/
+.m14{
+	width:328px;
+	border:1px solid #CCC;
+	background:url(images/bd-r2-c2.gif)no-repeat;
+	margin-right:7px;
+}
+.m14 .h h2{
+	margin:10px 0 10px 10px;
+}
+.m14 .h .hr{
+	float:right;
+	margin:-30px 15px 0 0;
+}
+.m14 .fl img{
+	float:left;
+	margin:5px 10px 0px 10px;
+}
+.m14 .b h3{
+	margin-top:5px;
+}
+.m14 .br h2 a{
+	font-weight:bold;
+	color:#000;
+}
+.m14 .br p{
+	line-height:24px;
+	margin-bottom:10px;
+}
+.m14 ul{
+	margin-left:30px;
+	width:250px;
+	margin-bottom:10px;
+}
+.m14 li{
+	list-style:outside;
+	line-height:26px;
+	border-bottom: 1px gray dashed;
+}
+/*===========================================二手物品===========================================*/
+.m15{
+	width:282px;
+	background:url(images/m4c3.png)no-repeat;
+	border:1px solid #CCC;
+}
+.m15 .h h2{
+	margin:10px 0 10px 10px;
+}
+.m15 .hr{
+	float:right;
+	margin:-30px 15px 0 0;
+}
+.m15 .fl img{
+	float:left;
+	margin:5px 10px 10px 10px;
+}
+.m15 .fl h2 a{
+	line-height:20px;
+	font-weight:bold;
+	color:#000;
+}
+.m15 .fl p{
+	line-height:20px;
+}
+.m15 ul{
+	margin-left:20px;
+	width:220px;
+	margin-bottom:10px;
+}
+.m15 li{
+	list-style:inside;
+	line-height:26px;
+	border-bottom: 1px gray dashed;	
+}
