@@ -243,15 +243,14 @@ i {
 /*------------------- md --------------------------*/
 .md {
   padding-top: 6px;
-  background: url(../images/md-bg.png) no-repeat 0 0;
+  background: url(../images/md-bg.gif) no-repeat -2px 0;
 }
 
 .md-h {
   height: 34px;
   padding-left: 35px;
   line-height: 34px;
-  background: url(../images/md-hbg.png) no-repeat 0 0;
-  border: 1px solid #d8e7f5;
+  background: url(../images/md-hbg.gif) no-repeat 0 0;
   border-top: none;
   border-bottom: none;
 }
@@ -290,8 +289,6 @@ i {
 .md-b {
   display: none;
   padding: 20px 10px;
-  border: 1px solid #d8e7f5;
-  border-top: none;
 }
 
 .md-b ul {
