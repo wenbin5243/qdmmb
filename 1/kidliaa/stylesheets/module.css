@@ -1,0 +1,322 @@
+/*------------------- site-helper --------------------------*/
+  /**
+   * 此为整站的帮助信息,功能有
+   * 1)显示欢迎信息
+   * 2)当前天气,及其他即时信息
+   * 3)设网站为首页按钮
+   * 4)把网站加入收藏夹
+   */
+
+  
+/*------------------- cookie --------------------------*/
+
+
+
+/*------------------- i --------------------------*/
+i {
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.i-16 {
+  width: 16px;
+  height: 16px;
+}
+
+.i-20 {
+  width: 20px;
+  height: 20px;
+}
+
+.i-32 {
+  width: 32px;
+  height: 32px;
+}
+
+.i-37 {
+  width: 37px;
+  height: 37px;
+}
+
+.i-fav {
+  background-image: url(../images/i-fav.gif);
+}
+
+.i-homepage {
+  background-image: url(../images/i-homepage.gif);
+}
+
+.i-weather {
+  background-image: url(../images/i-weather.gif);
+}
+/*------------------- ma --------------------------*/
+.ma {
+  padding-top: 7px;
+  background: url(../images/ma-bg.gif) no-repeat -1px 0;
+}
+.ma-h {
+  height: 35px;
+  padding-left: 20px ;
+  line-height: 35px;
+  border: 1px solid #d8e7f5;
+  border-top: none;
+  border-bottom: none;
+  background: url(../images/ma-hbg.gif) no-repeat 0 0;
+}
+.ma-h h3{
+  display: inline;
+  float: left;
+  padding-left: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #00439f;
+  background: url(../images/ma-h3bg.gif) no-repeat 0 center;
+}
+.ma-h .more {
+  display: inline;
+  float: right;
+  margin-right: 10px;
+  width: 38px;
+  height: 35px;
+  background: url(../images/more.gif) no-repeat 0 center;
+}
+
+.ma-b {
+  padding: 10px;
+  border: 1px solid #d8e7f5;
+  border-top: none;
+}
+.ma-b1 {
+  padding-bottom: 5px;
+  border-bottom: 1px dotted #d8e7f5;
+}
+.ma-b1 img {
+  display: inline;
+  float: left;
+  padding: 1px;
+  border: 1px solid #d8e7f5;
+}
+
+.ma-b1 .br {
+  margin-left: 147px;
+}
+
+.ma-b1 .br h2 {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.ma-b1 .br p {
+  text-indent: 2em;
+  line-height: 13px;
+}
+
+.ma-b2 li {
+  height: 26px;
+  line-height: 26px;
+  border-bottom: 1px dotted #d8e7f5;
+}
+
+/*------------------- mb --------------------------*/
+.mb {
+  padding-top: 7px;
+  background: url(../images/mb-bg.gif) no-repeat -1px 0;
+}
+
+.mb-h {
+  clear: both;
+  height: 35px;
+  padding-left: 20px ;
+  line-height: 35px;
+  border: 1px solid #d8e7f5;
+  border-top: none;
+  border-bottom: none;
+  background: url(../images/ma-hbg.gif) no-repeat 0 0;
+}
+
+.mb-h h3 {
+  display: inline;
+  float: left;
+  padding-left: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #00439f;
+  background: url(../images/ma-h3bg.gif) no-repeat 0 center;
+}
+
+.mb-h .more {
+  display: inline;
+  float: right;
+  margin-right: 10px;
+  width: 38px;
+  background: url(../images/more.gif) no-repeat 0 center;
+}
+
+.mb-b {
+  padding: 10px;
+  border: 1px solid #d8e7f5;
+  border-top: none;
+}
+
+.mb-b1 {
+  padding-bottom: 5px;
+  border-bottom: 1px dotted #d8e7f5;
+}
+.mb-b1 img {
+  display: inline;
+  float: left;
+  padding: 1px;
+  border: 1px solid #d8e7f5;
+}
+
+.mb-b1 .br {
+  margin-left: 127px;
+}
+.mb-b1 h2 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.mb-b1 p {
+  text-indent: 2em;
+  line-height: 14px
+}
+
+.mb-b2 li {
+  height: 26px;
+  line-height: 26px;
+  border-bottom: 1px dotted #d8e7f5;
+}
+
+/*------------------- mc --------------------------*/
+
+.mc-h {
+  clear: both;
+  height: 35px;
+  padding-left: 20px ;
+  padding-bottom: 10px;
+  line-height: 35px;
+  border-top: none;
+  border-bottom: none;
+  background: url(../images/mc-hbg.png) no-repeat -2px bottom;
+}
+
+.mc-h h3 {
+  display: inline;
+  float: left;
+  padding-left: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #00439f;
+  background: url(../images/ma-h3bg.png) no-repeat 0 center;
+}
+
+.mc-h .more {
+  display: inline;
+  float: right;
+  margin-right: 10px;
+  width: 38px;
+  background: url(../images/more.png) no-repeat 0 center;
+}
+
+.mc-b {
+  border: 1px solid #d8e7f5;
+  border-top: none;
+}
+.mc-b img {
+  display: inline;
+  float: left;
+}
+.mc-b .b1 {
+  width: 319px;
+}
+
+.mc-b .b2 {
+  width: 296px;
+}
+
+.mc-b .b3 {
+  width: 343px;
+}
+
+/*------------------- md --------------------------*/
+.md {
+  padding-top: 6px;
+  background: url(../images/md-bg.png) no-repeat 0 0;
+}
+
+.md-h {
+  height: 34px;
+  padding-left: 35px;
+  line-height: 34px;
+  background: url(../images/md-hbg.png) no-repeat 0 0;
+  border: 1px solid #d8e7f5;
+  border-top: none;
+  border-bottom: none;
+}
+
+.md-h li {
+  float: left;
+}
+
+.md-h li a {
+  display: inline-block;
+  width: 67px;
+  padding: 0 22px;
+}
+
+.md-h li a.active {
+  position: relative;
+  top: -13px;
+  width: 67px;
+  height: 47px;
+  line-height: 47px;
+  color: white;
+  font-size: 15px;
+  background: url(../images/md-h-a-onhover.gif) no-repeat 0 0;
+}
+.md-h li a:hover {
+  position: relative;
+  top: -13px;
+  width: 67px;
+  height: 47px;
+  line-height: 47px;
+  color: white;
+  font-size: 15px;
+  background: url(../images/md-h-a-onhover.gif) no-repeat 0 0;
+}
+
+.md-b {
+  display: none;
+  padding: 20px 10px;
+  border: 1px solid #d8e7f5;
+  border-top: none;
+}
+
+.md-b ul {
+  height: 29px;
+  line-height: 29px;
+  border-bottom: 1px dotted #d8e7f5;
+}
+
+.md-b li {
+  width: 115px;
+  float: left;
+}
+
+.md-b li a {
+  display: inline-block;
+}
+
+.md-b.active {
+  display: block;
+}
+
+.md-b ul.even {
+  background-color: #edf8ff;
+}
+
+
+
+

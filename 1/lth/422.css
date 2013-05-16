@@ -73,15 +73,15 @@ a{
 	line-height:35px;
 }
 #h .r1 .c2{
-	background:url(images/h-r1-c2.png)no-repeat;
+	background:url(images/h-r1-c2.png) no-repeat;
 	padding-left:44px;
 }
 #h .r1 .a1{
-	background:url(images/h-r1-c3-a1.png)no-repeat;
+	background:url(images/h-r1-c3-a1.png) no-repeat;
 	padding-left:25px;
 }
 #h .r1 .a2{
-	background:url(images/h-r1-c3-a2.png)no-repeat;
+	background:url(images/h-r1-c3-a2.png) no-repeat;
 	padding-left:25px;
 }
 #h .r2{
@@ -89,7 +89,7 @@ a{
 	height:98px;
 }
 #h .r2 .w{
-	background:url(images/h-r2-w.png)no-repeat;
+	background:url(images/h-r2-w.png) no-repeat;
 	height:98px;
 }
 #h .r2 img{
@@ -108,7 +108,7 @@ a{
 	margin-right:10px;
 }
 #h .r4{
-	background:url(images/h-r4.png)center no-repeat;
+	background:url(images/h-r4.png) center no-repeat;
 	height:45px;
 }
 #h .r4 li{
@@ -124,7 +124,7 @@ a{
 	color:#F00;
 }
 #h .r5{
-	background:url(images/h-r5.gif)no-repeat center bottom;
+	background:url(images/h-r5.gif) no-repeat center bottom;
 	height:98px;
 	margin-top:-10px;
 }
@@ -147,7 +147,7 @@ a{
 	color:#F00;
 }
 #h .r6{
-	background:url(images/h-r6.png)no-repeat center;
+	background:url(images/h-r6.png) no-repeat center;
 	height:62px;
 }
 #h .r6 .w{
@@ -161,12 +161,12 @@ a{
 	padding-left:52px;
 }
 #a1{
-	background:#FFF url(images/h-r6-c1-1.gif)no-repeat;
+	background:#FFF url(images/h-r6-c1-1.gif) no-repeat;
 	padding-left:20px;
 	width:195px;
 }
 #search-btn{
-	background:url(images/h-r6-c1-ss.gif)no-repeat;
+	background:url(images/h-r6-c1-ss.gif) no-repeat;
 	border:none;
 	width:55px;
 	height:25px;
@@ -174,12 +174,12 @@ a{
 }
 
 #zh{
-	background:#FFF url(images/h-r6-c2-1.gif)no-repeat 7px;
+	background:#FFF url(images/h-r6-c2-1.gif) no-repeat 7px;
 	padding-left:30px;
 	width:80px;
 }
 #mm{
-	background:#FFF url(images/h-r6-c2-2.gif)no-repeat 7px;
+	background:#FFF url(images/h-r6-c2-2.gif) no-repeat 7px;
 	padding-left:30px;
 	width:80px;
 }
@@ -187,7 +187,7 @@ a{
 	margin-left:10px;
 }
 #login-btn{
-	background:url(images/h-r6-c2.png)no-repeat;
+	background:url(images/h-r6-c2.png) no-repeat;
 	border:none;
 	width:55px;
 	height:25px;
@@ -236,7 +236,7 @@ a{
 	margin:0 auto;
 }
 .m2 .h{
-	background:url(images/bdr1c2.png)no-repeat;
+	background:url(images/bdr1c2.png) no-repeat;
 	height:40px;
 }
 .m2 .h h2{
@@ -259,7 +259,7 @@ a{
 }
 /*===========================================精华帖===========================================*/
 .m3 .h{
-	background:url(images/bd-r2-c1.png)no-repeat;
+	background:url(images/bd-r2-c1.png) no-repeat;
 }
 .m3 .h h2{
 	padding:15px 0 0 25px;
@@ -283,31 +283,31 @@ a{
 	line-height: 28px;
 }
 .m3 li.a1{
-	background:url(images/bd-r2-c1-b-1.gif)no-repeat 7px;
+	background:url(images/bd-r2-c1-b-1.gif) no-repeat 7px;
 }
 .m3 li.a2{
-	background:url(images/bd-r2-c1-b-2.gif)no-repeat 7px;
+	background:url(images/bd-r2-c1-b-2.gif) no-repeat 7px;
 }
 .m3 li.a3{
-	background:url(images/bd-r2-c1-b-3.gif)no-repeat 7px;
+	background:url(images/bd-r2-c1-b-3.gif) no-repeat 7px;
 }
 .m3 li.a4{
-	background:url(images/bd-r2-c1-b-4.gif)no-repeat 7px;
+	background:url(images/bd-r2-c1-b-4.gif) no-repeat 7px;
 }
 .m3 li.a5{
-	background:url(images/bd-r2-c1-b-5.gif)no-repeat 7px;
+	background:url(images/bd-r2-c1-b-5.gif) no-repeat 7px;
 }
 .m3 li.a6{
-	background:url(images/bd-r2-c1-b-6.gif)no-repeat 7px;
+	background:url(images/bd-r2-c1-b-6.gif) no-repeat 7px;
 }
 .m3 li.a7{
-	background:url(images/bd-r2-c1-b-7.gif)no-repeat 7px;
+	background:url(images/bd-r2-c1-b-7.gif) no-repeat 7px;
 }
 .m3 li.a8{
-	background:url(images/bd-r2-c1-b-8.gif)no-repeat 7px;
+	background:url(images/bd-r2-c1-b-8.gif) no-repeat 7px;
 }
 .m3 li.a9{
-	background:url(images/bd-r2-c1-b-9.gif)no-repeat 7px;
+	background:url(images/bd-r2-c1-b-9.gif) no-repeat 7px;
 }
 .m3 li.a10{
 	background:url(images/bd-r2-c1-b-10.gif)no-repeat 7px;
@@ -320,7 +320,7 @@ a{
 }
 /*===========================================社区热帖===========================================*/
 .m4{
-	background:url(images/bd-r2-c2.gif)no-repeat;
+	background:url(images/bd-r2-c2.gif) no-repeat;
 	width:330px;
 	border:1px solid #CCC;
 	margin:9px 0 10px 8px;
@@ -346,14 +346,14 @@ a{
 	color:#000;
 }
 .m4 li.ba{
-	background:url(images/m4ba.png)no-repeat 7px;
+	background:url(images/m4ba.png) no-repeat 7px;
 	padding-left:15px;
 }
 /*===========================================喜欢的板块===========================================*/
 .m5{
 	margin:10px 0 7px 0;
 	width:288px;
-	background:url(images/m4c3.png)no-repeat;
+	background:url(images/m4c3.png) no-repeat;
 	border:1px solid #CCC;
 }
 .m5 .h h2{
@@ -379,21 +379,21 @@ a{
 	color:#FFF;
 }
 .m5 .bt li.aa{
-	background:url(images/h-r6-c2.png)no-repeat;
+	background:url(images/h-r6-c2.png) no-repeat;
 	width:60px;
 }
 .m5 .bt li.ab{
-	background:url(images/m5btab.png)no-repeat;
+	background:url(images/m5btab.png) no-repeat;
 	width:70px;
 }
 .m5 .bt li.ac{
-	background:url(images/m5btab.png)no-repeat;
+	background:url(images/m5btab.png) no-repeat;
 	width:70px;
 }
 /*有话要说*/
 .m6{
 	width:288px;
-	background:url(images/m4c3.png)no-repeat;
+	background:url(images/m4c3.png) no-repeat;
 	border:1px solid #CCC;
 }
 .m6 .h h2{
@@ -401,11 +401,25 @@ a{
 }
 .m6 .h .hr{
 	float:right;
-	margin:-25px 20px 0 0;
+	margin:-20px 20px 0 0;
 }
+.m6 .bl{
+	float:left;
+}
+.m6 .br{
+	width:160ppx;
+	}
 .m6 .b{
-	margin-left:10px;
-	height:160px;
+	margin:10px 0 0 10px;
+}
+.m6 .br h3 a{
+	font-weight:bold;
+	}
+.m6 a{
+	color:#000;
+}
+.m6 .br p{
+	line-height:22px;
 }
 .m6 .b .fl{
 	border:1px solid #CCC;
@@ -428,21 +442,19 @@ a{
 	margin:0 auto;
 	line-height:26px;
 }
-.m6 .bf{
-	float:right;
-	margin:10px 0 0 0;
-	background:url(images/m6bf.png)no-repeat;
-	height:28px;
+.m6 .b3{
+	background:url(images/m6bf.png) no-repeat right;
+	line-height:20px;
+	margin-top:15px;
 }
-.m6 .bf a{
-	color:#FFF;
-	padding-left:15px;
-	line-height:24px;
+.m6 .b3 p{
+	list-style:none;
+	padding-left:100px;
 }
 /*===========================================热点活动===========================================*/
 .m7{
 	width:668px;
-	background:url(images/m7.gif)no-repeat;
+	background:url(images/m7.gif) no-repeat;
 	border:1px solid #CCC;
 }
 .m7 .h h2{
@@ -567,7 +579,7 @@ a{
 .m9{
 	width:328px;
 	border:1px solid #CCC;
-	background:url(images/bd-r2-c2.gif)no-repeat;
+	background:url(images/bd-r2-c2.gif) no-repeat;
 	margin-right:9px;
 }
 .m9 .h h2{
@@ -608,7 +620,7 @@ a{
 /*===========================================吃喝玩乐===========================================*/
 .m10{
 	width:329px;
-	background:url(images/bd-r2-c2.gif)no-repeat;
+	background:url(images/bd-r2-c2.gif) no-repeat;
 	border:1px solid #CCC;
 }
 .m10 .h h2{
@@ -645,7 +657,7 @@ a{
 /*=======================================婚恋亲子===========================================*/
 .m11{
 	width:282px;
-	background:url(images/m4c3.png)no-repeat;
+	background:url(images/m4c3.png) no-repeat;
 	border:1px solid #CCC;
 }
 .m11 .h h2{
@@ -693,7 +705,7 @@ a{
 	margin:-10px 15px 0 0;
 }
 .m12 .b{
-	background:url(images/m12b.png)no-repeat;
+	background:url(images/m12b.png) no-repeat;
 	width:960px;
 	border:1px solid #CCC;
 }
@@ -765,7 +777,7 @@ a{
 .m13{
 	width:328px;
 	border:1px solid #CCC;
-	background:url(images/bd-r2-c2.gif)no-repeat;
+	background:url(images/bd-r2-c2.gif) no-repeat;
 	margin-right:9px;
 }
 .m13 .h h2{
@@ -805,7 +817,7 @@ a{
 .m14{
 	width:328px;
 	border:1px solid #CCC;
-	background:url(images/bd-r2-c2.gif)no-repeat;
+	background:url(images/bd-r2-c2.gif) no-repeat;
 	margin-right:7px;
 }
 .m14 .h h2{
