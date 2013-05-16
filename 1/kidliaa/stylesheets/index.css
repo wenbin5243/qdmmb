@@ -1,0 +1,629 @@
+/*------------------- global --------------------------*/
+body {
+  font-size: 12px;
+  font-family: 宋体, Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/*------------------- 原子类layout --------------------------*/
+.w {width: 960px; margin: 0 auto; }
+
+.fl {display: inline; float: left; zoom:1;}
+
+.fr {display: inline; float: right; }
+
+.irp {text-indent: -9999px; } 
+
+.more {
+  display: inline-block;
+  width: 38px;
+  height: 5px;
+  background: url(../images/more.gif) no-repeat 0 center;
+}
+/*------------------- header --------------------------*/
+
+/*------------------- header r1 --------------------------*/
+#header .r1 {
+  height: 34px;
+  line-height: 34px;
+  background: url(../images/h-r1bg.gif) repeat-x 0 0;
+}
+#header .r1 .c1 {
+  margin-right: 20px;
+}
+
+
+.cta-homepage {
+  padding-left: 18px;
+  display: inline-block;
+  height: 34px;
+  line-height: 34px;
+  background: url(../images/i-homepage.gif) no-repeat 0 center;
+}
+
+.cta-fav {
+  display: inline-block;
+  padding-left: 18px;
+  background: url(../images/i-fav.gif) no-repeat 0 center;
+}
+
+.cta-weather {
+  display: inline-block;
+  padding-left: 37px;
+  background: url(../images/i-weather.gif) no-repeat 0 0;
+}
+
+
+/*------------------- header r2 --------------------------*/
+
+
+#header .r2 {
+  background: url(../images/h-r2bg.gif) repeat-x 0 0;
+}
+
+#header .r2 .w {
+  height: 92px;
+  border-bottom: 1px solid #abe4f5;
+  background: url(../images/h-r2bg2.gif) no-repeat right bottom;
+}
+
+#header .r2 .logo {
+  display: inline-block;
+  height: 92px;
+  width: 169px;
+  background: url(../images/logo.gif) no-repeat 0 center;
+}
+/*------------------- header r3 --------------------------*/
+#header .r3{
+  margin-top: 10px;
+}
+
+#header .r3 ul li {
+  padding-bottom: 12px;
+  /* IE6BUG1: 中如果使用一下规则,则r1,r2,r3将单独成行/
+  /*height: 24px;*/
+  /*line-height: 24px;*/
+}
+
+#header .r3 .c3 {
+  width: 607px;
+  padding:0 15px;
+}
+/*------------------- header r4 --------------------------*/
+#header .r4 {
+  /*width: 987px;*/
+  height: 47px;
+  background: url(../images/h-r4bg.gif) no-repeat center top; /*todo2: 这个图切不来*/
+}
+
+
+#header .r4 .nav-main {
+  font-size: 12px;
+  height: 37px;
+  line-height: 37px;
+  text-align: center;
+}
+
+#header .r4 .nav-main li {
+  float: left;
+  padding: 0 26px 0 26px;
+  background: url(../images/nav-main-spacer.gif) no-repeat right center;
+
+}
+#header .r4 .nav-main li.last {
+      background: none;
+}
+#header .r4 .nav-main a {
+  display: inline-block;
+  color: white;
+}
+
+/*------------------- header r5 --------------------------*/
+
+#header .r5 {
+  height: 101px;
+  margin-top: -9px;
+  background: url(../images/h-r5bg.gif) no-repeat center top;
+}
+
+#header .ca {
+  float: left;
+}
+
+#header dl {
+  /* IE6如果这里不设置高度,则hero img都不能全部显示出来 */
+  height: 80px;
+  width: 235px;
+  padding-left: 5px;
+  padding-top: 20px;
+}
+#header dt {
+  float: left;
+  width: 75px;
+  height: 68px;
+  margin-right: 5px;
+}
+#header .channel-hot dt {
+  background: url(../images/channel-hot-hero.gif) no-repeat center bottom ;
+}
+#header .channel-live dt {
+  background: url(../images/channel-live-hero.gif) no-repeat center bottom ;
+}
+#header .channel-service dt {
+  background: url(../images/channel-service-hero.gif) no-repeat center bottom ;
+}
+#header .channel-focus dt {
+  background: url(../images/channel-focus-hero.gif) no-repeat center bottom ;
+}
+#header dd {
+  display: inline-block;
+  float: left;
+  width: 58px;
+  padding-left: 8px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  
+}
+
+#header dd.first {
+  background: url(../images/channel-dd-spacer.gif) no-repeat right center;
+}
+#header dd a {
+  display: inline-block;
+  color: #005c9c;
+}
+
+/*------------------- header r6 --------------------------*/
+#header .r6 input {
+  /*font-size: 14px;*/
+}
+#header .r6 {
+  height: 76px;
+  background: url(../images/h-r6bg.gif) no-repeat center 0;
+}
+#header .r6 .w {
+  height: 27px;
+  padding-top: 25px;
+  padding-right: 10px;
+  line-height: 27px;
+}
+
+#header .r6 input,
+#header .r6 select{ height:26px; line-height:26px; }
+
+#header .r6 .c1 {
+  margin-left: 52px;
+  width: 350px;
+}
+
+#header .r6 .c2 {
+  margin-left: 17px;
+  width: 315px;
+}
+
+#header .r6 .c3 {
+  margin-right: 10px;
+}
+
+#header .r6 .cta-qqlogin {
+  display: inline-block;
+  width: 124px;
+  height: 24px;
+  background: url(../images/cta-qqlogin.gif) no-repeat 0 0;
+}
+#search-text {
+  width: 185px;
+  padding-left: 32px;
+  background: url(../images/search-text.gif) no-repeat 0 0;
+  border: none;
+}
+
+#search-type {
+  height: 27px;
+  width: 65px;
+}
+
+#search-submit {
+  width: 55px;
+  color: #fff;
+  background: url(../images/search-submit.gif) no-repeat 0 0;
+  border: none;
+}
+
+#login-username {
+  width: 88px;
+  padding-left: 32px;
+  background: url(../images/login-username.gif) no-repeat 0 0;
+  border: none;
+}
+
+#login-password {
+  width: 88px;
+  padding-left: 32px;
+  background: url(../images/login-password.gif) no-repeat 0 0;
+  border: none;
+}
+
+#login-submit {
+  width: 55px;
+  color: white;
+  background: url(../images/login-submit.gif) no-repeat 0 0;
+  border: none;
+}
+
+
+/*------------------- body --------------------------*/
+#body .r1 .c1 {
+  width: 505px;
+  height: 363px;
+  padding-top: 6px;
+  padding-left: 6px;
+  background: url(../images/b-r1-c1bg.gif) no-repeat 0 0;
+}
+#body .r1 .slider {
+  height: 320px;
+  width: 490px;
+}
+#body .r1 .c2 {
+  margin-left: 10px;
+  width: 438px;
+}
+
+#body .featured-articals {
+  background: url(../images/b-r1-c2bg.gif) no-repeat 0 0;
+}
+
+#body .featured-articals .title {
+  height: 28px;
+  line-height: 28px;
+  margin-bottom: 25px; 
+}
+#body .featured-articals .title h2{
+  display: inline-block;
+  float: left;
+  width: 68px;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+#body .featured-articals .title span {
+  float: right;
+}
+#body .featured-articals .artical {
+  margin-bottom: 10px;
+}
+#body .featured-articals .artical-title a{
+  display: inline-block;
+  color: red;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#body .featured-articals .artical-content {
+  text-indent: 2em;
+  line-height: 20px;
+}
+
+#body .r1 .slider {
+  position: relative;
+  font-size: 14px;
+}
+#body .r1 .slider ul {
+  width: 499px;
+  height: 309px;
+  overflow: hidden;
+}
+
+/*------------------- body r2 --------------------------*/
+#body .r2 {
+  margin-top: 5px;
+}
+
+#body .r2 .c1 {
+  width: 329px;
+  margin-right: 7px;
+}
+
+#body .r2 .c1 ul {
+  width: 293px;
+  height: 330px;
+  background: url(../images/b-r2c1-ulbg.gif) no-repeat 0 8px;
+}
+
+#body .r2 .c1 ul li {
+  height: 29px;
+  padding-left: 20px;
+  line-height: 29px;
+  border-bottom: 1px dotted #d8e7f5;
+}
+#body .r2 .c1 ul li.last {
+  border-bottom: none;
+}
+#body .r2 .more {
+  float: right;
+  height: 29px;
+  margin-right: 10px;
+}
+
+#body .r2 .c2 {
+  width: 329px;
+  margin-right: 7px;
+}
+
+
+#body .r2 .c2 ul{
+  width: 299px;
+  height: 100px;
+  background: url(../images/b-r2c2-ulbg.gif) no-repeat 0 8px;
+  border-bottom: 1px dotted #d8e7f5;
+}
+
+#body .r2 .c2 ul li {
+  margin-left: 10px;
+  height: 24px;
+  line-height: 24px;
+}
+
+#body .r2 .c3 {
+  width: 288px;
+}
+#body .r2 .c3 .r1 ul li{
+  height: 23px;
+  line-height: 23px;
+  overflow: hidden;
+}
+#body .r2 .c3 .r1 .btns {
+  height: 27px;
+  padding-top: 10px;
+  padding-left: 20px;
+ }
+#body .r2 .c3 .r1 .cta-comment, #body .r2 .c3 .r1 .cta-morevote {
+  display: inline-block;
+  float: left;
+  width: 68px;
+  margin-right: 10px;
+  height: 27px;
+  line-height: 27px;
+  text-align: center;
+  color: white;
+  background: url(../images/cta-comment.gif) no-repeat 0 center;
+}
+
+#vote-submit {
+  float: left;
+  width: 57px;
+  height: 27px;
+  margin-right: 10px;
+  color: white;
+  background: url(../images/vote-submit.gif) no-repeat 0 center;
+  border: none;
+}
+#body .r2 .c3 .r2 .br {
+  margin-left: 97px;
+  /*width: 100px;*/
+  /*float: left;*/ /*这里不需要用用float来实现图文混排的效果*/
+  /*如果这里把文字部分float了,则文字会按照应该有的长度进行layout
+  这样就无法和图片混排,一定要float的话,需要设置合适宽度值*/
+}
+
+#body .r2 .c3 .r2 .br h2 {
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+#body .r2 .c3 .r2 .br p {
+  text-indent: 2em;
+  line-height: 16px;
+}
+
+#body .r2 .c3 .r2 .b2 li {
+  height: 24px;
+  line-height: 24px;
+  border-bottom: 1px dotted #d8e7f5;
+}
+
+#body .r2 .c3 .r2 .b3 {
+  margin-top: 5px;
+  height: 27px;
+  padding-right: 5px;
+  line-height: 27px;
+  text-align: right;
+  color: white;
+  background: url(../images/b-r2c3r2-b3bg.gif) no-repeat right bottom;
+}
+
+#body .r2 .c3 .r2 .b3 a {
+  color: white;
+}
+
+/*------------------- body r4 --------------------------*/
+#body .r4 .c1 {
+  width: 666px;
+}
+
+.m1 {
+  background: url(../images/m1bg.gif) no-repeat 0 0;
+}
+.m1 .h {
+  height: 36px;
+  margin-top: 4px;
+  border: 1px solid #cdd7e0;
+  border-top: none;
+  border-bottom: none;
+  line-height: 36px;
+  background: url(../images/m1-hbg.gif) no-repeat 0 0;
+}
+
+.m1 .h h2 {
+  margin-left: 20px;
+  padding-left: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #00439f;
+  background: url(../images/ma-h3bg.gif) no-repeat 0 center;
+}
+
+.m1 .b {
+  border: 1px solid #cdd7e0;
+  border-top: none;
+  background: url(../images/m1-bbg.gif) no-repeat center;
+}
+
+.m1 .b li {
+  display: inline;
+  float: left;
+  width: 305px;
+  margin: 13px;
+}
+.m1 .b img{padding:2px; border:1px solid #BBCCDB;}
+
+.m1 .br {
+  margin-left: 146px;
+}
+
+.m1 .br h2 {
+  font-size: 13px;
+}
+.m1 .br p {
+  text-indent: 2em;
+}
+
+/*------------------- r4 c2 --------------------------*/
+#body .r4 .c2 {
+  width: 288px;
+}
+.tabnav {
+  padding: 1px;
+  border: 1px solid #cdd7e0;
+}
+.tabnav .h li {
+  float: left;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+}
+.tabnav .h a {
+  display: inline-block;
+  width: 140px;
+  height: 41px;
+  line-height: 41px;
+  background: url(../images/tab-deactivebg.gif) no-repeat 0 0;
+  border: 1px solid #cdd7e0;
+  border-top: none;
+  border-right: none;
+}
+
+.tabnav .h a.active {
+  background: url(../images/tab-active.gif) no-repeat 0 0;
+  border: none;
+}
+
+.tabnav .b1, .tabnav .b2 {
+  display: none;
+  padding: 12px;
+}
+
+.tabnav .active {
+  display: block;
+}
+
+.tabnav .br {
+  margin-left: 102px;
+}
+
+.tabnav h2 {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tabnav p {
+  text-indent: 2em;
+  line-height: 18px;
+}
+
+.tabnav .bb2 li {
+  height: 26px;
+  line-height: 26px;
+  border-bottom: 1px dotted #d8e7f5;
+}
+
+/*------------------- body r5 --------------------------*/
+#body .r5 {
+  margin-top: 5px;
+}
+
+#body .r5 .c1 {
+  width: 329px;
+  margin-right: 7px;
+}
+
+#body .r5 .c2 {
+  width: 329px;
+  margin-right: 7px;
+}
+
+#body .r5 .c3 {
+  width: 288px;
+}
+
+/*------------------- body r6 --------------------------*/
+#body .r6 {
+  margin-top: 10px;
+}
+
+/*------------------- body r8 --------------------------*/
+#body .r8 .c1 {
+  width: 329px;
+  margin-right: 8px;
+}
+
+#body .r8 .c2 {
+  width: 329px;
+}
+
+#body .r8 .c3 {
+  width: 288px;
+}
+#body .r8 .more {
+  height: 34px;
+}
+
+/*------------------- body r9 --------------------------*/
+#body .r9 {
+  margin-top: 10px;
+}
+
+/*------------------- footer r1 --------------------------*/
+#footer {
+  text-align: center;
+}
+
+#footer .r1 a {
+  display: inline-block;
+  width: 65px;
+  color: #004890;
+}
+#footer p {
+  line-height: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
