@@ -1,0 +1,1 @@
+#wrap{clear:both;margin:0 auto;min-width:960px;_width:expression((document.documentElement.clientWidth||document.body.clientWidth)<960?"960px":"");overflow:hidden;text-align:left;}
