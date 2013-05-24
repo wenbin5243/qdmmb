@@ -1,0 +1,11 @@
+html{background-color:#FFF;}body, ul,dl, dd, h1, h2, h3, h4, h5, h6, p, form{margin:0;padding:0;font-family:'lucida grande',tahoma,helvetica,arial,'bitstream vera sans',sans-serif;}ol,li{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}ol,ul,ol li,ul li,li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:bold}ul li{margin:0;padding:0;list-style:none;}q:before,q:after{content:''}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input{margin:0;padding:0;}input,textarea,select{*font-size:100%}.clearfix{display:inline-block;}.clearfix{display:block;}.hidden{display:none;}html[xmlns]*{outline:0;}
+button:-moz-focus-inner{border-color:transparent!important;}
+img,a .img{border:0}.cl{display:both;}
+.ml2{margin-left:2px;}.ml5{margin-left:5px;}.ml10{margin-left:10px;}.ml20{margin-left:20px;}.mr2{margin-right:2px;}.mr5{margin-right:5px;}.mr10{margin-right:10px;}.mr20{margin-right:20px;}.mt2{margin-top:2px;}.mt5{margin-top:5px;}.mt10{margin-top:10px;}.mt20{margin-top:20px;}.mb2{margin-bottom:2px;}.mb5{margin-bottom:5px;}.mb10{margin-bottom:10px;}.mb20{margin-bottom:20px;}.f0{font-size:0;}.f12{font-size:12px;}.f13{font-size:13px;}.f14{font-size:14px;}.f15{font-size:15px;}.f16{font-size:16px;}.rel{position:relative;}
+.fl,.tab .h li{float:left;display:inline}.fr{float:right;display:inline}.red{color:#E60416}
+.gray{color:#333333}
+.gray2{color:#888888}
+.blue{color:#025df4}.tdn{text-decoration:none;}.tdu{text-decoration:underline;}.line20{line-height:20px;}.line25{line-height:25px;}.line30{line-height:30px;}.txr{text-align:right}.txl{text-align:left}.txc{text-align:center}
+body{color:#000;font-size:14px;text-align:center;}a{text-decoration:none;}a:hover{text-decoration:none}
+#container{width:960px;overflow:hidden;background-color:#fff;margin:0px auto;text-align:left;}#container_news{background-color:#fff;margin:0 auto;overflow:hidden;text-align:left;width:1000px;}
+#container_el{margin:0px auto;background-color:#fff;width:100%;text-align:left;}

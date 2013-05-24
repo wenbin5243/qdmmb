@@ -1,0 +1,8 @@
+#footer {/*min-height: 59px;*/min-width: 960px;width: 100%;}
+.f_menu {margin:0 auto;clear: both;color: #666666;font-size: 12px;line-height: 22px;margin: 15px 0 25px 0;text-align: center;width: 100%;}
+.f_menu li{list-style: none outside none; font-family:arial;}
+.f_menu a,.f_menu em{color:#666;text-decoration:none;padding: 0 0 0 3px;}
+.f_menu span{padding: 0 0 0 3px;}
+.f_menu em{font-family:新宋体;font-style:normal;font-size:10px;color:#666; padding-left:2px;}
+.f_menu a:link, .f_menu a:visited {color: #666666;}
+.f_menu a:hover {color: #666666;text-decoration: underline;}
