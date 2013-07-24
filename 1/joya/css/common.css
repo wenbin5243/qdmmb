@@ -1,0 +1,219 @@
+/*========公共==============*/
+.w {
+	width:962px;
+	height: 100%;
+	margin:0 auto;
+}
+.fl {
+	float: left;
+	display: inline;
+}
+.fr {
+	float: right;
+	display: inline;
+}
+h3 {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+/*========clearfix==============*/
+.clearfix:after {
+	content:".";
+	display: block;
+	height: 0;
+	font-size: 0;
+	visibility:hidden;
+	clear:both;
+}
+.clearfix {
+	display: inline-block;
+}
+*html .clear {
+	height:1%;
+}
+.clearfix {
+	display: block;
+}
+/*========头部==============*/
+#header .r1 {
+	height: 35px;
+	line-height: 35px;
+	background:url("../images/h-r1.png") repeat-x;
+}
+#header .r1 .c2 img {
+	vertical-align: middle;
+}
+#header .r1 .c3 img {
+	vertical-align: middle;
+}
+#header .r1 a{
+	color: #09589e;
+}
+#header .r1 a:hover {
+	color:red;
+}
+#header .r2 {
+	background:url("../images/h-r2.png") repeat-x;
+}
+#header .r2 .w {
+	height: 92px;
+	background:url("../images/h-r2-w.jpg") no-repeat right bottom;
+}
+#header .r2 img {
+	margin:20px 0 0 15px;
+}
+#header .r3 .w {
+	background:url("../images/h-r3.png") no-repeat top;
+	padding-top:10px;
+	margin-bottom:8px;
+}
+#header .r3 .w .c1{
+	width:178px;
+}
+
+#header .r3 .w li a {
+	color:#0472c6;
+	line-height: 24px;
+}
+#header .r3 .w li a:hover {
+	color:red;
+}
+
+#header .r3 .w .c2 {
+	width:607px;
+	height: 90px;
+}
+#header .r3 .w .c3 {
+	width:161px;
+}
+#header .r4 {
+	background:url("../images/nav.png" ) no-repeat top center;
+	height:47px;
+}
+#header .r4 li {
+	float: left;
+	display: inline;
+	background:url("../images/nav-li.png") no-repeat center left;
+}
+#header .r4 li.first {
+	background:none;
+}
+#header .r4 a {
+	color:#fff;
+	padding:0 25px;
+	height: 37px;
+	line-height: 37px;
+}
+#header .r4 a:hover {
+	color:red;
+}
+#header .r5 .w{
+	background: url("../images/h-r5.jpg") no-repeat top center;
+	height: 98px;
+	margin-top:-8px;
+}
+#header .r5 .w .col {
+	width: 240px;
+}
+#header .r5 .w ul {
+	margin-top:16px;
+	margin-left:84px;
+}
+#header .r5 .w li a{
+	color:#005c9c;
+	margin:0 10px;
+	line-height: 24px;
+}
+#header .r5 .w li a:hover {
+	color:red;
+}
+#header .r5 .w li a.attract {
+	color:red;
+}
+#header .r6 .w {
+	margin-top:5px;
+	height: 62px;
+	background: url("../images/h-r6.jpg") no-repeat top center;
+}
+
+#header .r6 .w .col {
+	margin-top:24px;
+	margin-right:10px;
+}
+#header .r6 .w .c1 {
+	margin-left:52px;
+}
+#header .r6 .w input,#header .r6 .w select {
+	line-height: 23px;
+	height: 23px;
+	border:1px solid #8FAFCB;
+	border-radius: 3px;
+	margin-right:4px;
+
+}
+#header .r6 .w .c1 input {
+	width:170px;
+	padding-left:36px;
+	background: #fff url("../images/search-icon.jpg") no-repeat 10px 0;
+}
+#header .r6 .w .c1 button {
+	background: url("../images/search-btn.png") no-repeat ;
+	width:55px;
+	height: 25px;
+	color:#fff;
+	cursor:pointer;
+}
+#header .r6 .w .c2 input {
+	width:82px;
+	padding-left:35px;
+	margin-right:7px;
+}
+#header #username {
+	background: #fff url("../images/username-icon.jpg") no-repeat 5px 1px;
+}
+#header #password {
+	background: #fff url("../images/password-icon.jpg") no-repeat 5px 1px;
+}
+#header .r6 .w .c2 button {
+	background: url("../images/login-btn.png") no-repeat ;
+	width:55px;
+	height: 25px;
+	color:#fff;
+	cursor:pointer;
+}
+#header .r6 .w .c3 {
+	color:#002871;
+}
+#header .r6 .w .c3 a {
+	color:#002871;
+}
+#header .r6 .w .c3 a:hover {
+	color:red;
+}
+#header .r6 .w .c3 img {
+	vertical-align: -8px;
+}
+/*========尾部==============*/
+#footer {
+	width:962px;
+	position: relative;
+	text-align: center;
+	background: url("../images/footer.png") no-repeat;
+	margin:10px auto;
+	padding:10px 0;
+}
+#footer ul li {
+	line-height: 20px;
+	height: 20px;
+}
+#footer a.police {
+	position: absolute;
+	top:30px;
+	left:130px;
+}
+#footer a.jubao {
+	position: absolute;
+	top:40px;
+	right:100px;
+}
