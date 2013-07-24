@@ -1,0 +1,1105 @@
+.xmnnhead {
+	background: url("../images/xmnnheadbg.png") repeat-x;
+	height:35px;
+	line-height: 35px;
+	width:100%;
+}
+.xmnnhead-mobile {
+	background: url("../images/xmnnhead-mobile.png") no-repeat 0 50%;
+	padding-left:15px;
+	margin-left:25px;
+}
+
+.xmnnhead-mobile span {
+	padding-right:18px;
+}
+
+.xmnnhead-myblog{
+	color:#dcdcdc;
+}
+.xmnnhead-myblog a{
+	width: 60px;
+	display: inline-block;
+	background: url("../images/xmnnhead-myblog.png") no-repeat 100% 50%;
+}
+
+/*=============博客登录开始=============*/
+.main-login {
+	width: 100%;
+	height:45px;
+	border:1px solid #eadacb;
+	border-top:none;
+	background: url("../images/loginbg.png") repeat-x;
+	position: relative;
+	top:-4px;
+	z-index: -1;
+}
+.main-login-login{
+	width: 525px;
+	margin:0 0 0 15px;
+	padding-top:10px;
+}
+.main-login-login span {
+	color:#002871;
+	margin:0 10px 0 0;
+}
+.main-login-login span label{
+	color:#953919;
+	height: 22px;
+	line-height: 22px;
+}
+.main-login-login input {
+	width:116px;
+	height: 22px;
+	border:1px solid #d3ac8e;
+	background: #fff;
+}
+.main-login-login a {
+	color:#002871;
+}
+.main-login-login a:hover {
+	color:red;
+}
+.main-login-login button {
+	background: url("../images/login-btn.png") no-repeat 0 0;
+	width: 55px;
+	height: 25px;
+	line-height:25px;
+	border:0;
+	cursor: pointer;
+	color:#fff;
+}
+.main-login-qq {
+	padding-top:12px;
+	width:124px;
+	height: 24px;
+}
+.main-login-newArticle {
+	margin-right:30px;
+	padding-top:2px;
+	width:140px;
+	height: 39px;
+}
+/*=============博客登录结束=============*/
+/*=============热门新闻开始 mod1=============*/
+.mod1 {
+	width: 702px;
+	border:1px solid #dfa46f;
+	background: url("../images/mod1-bg.png") repeat-x 0 2px;
+	}
+.news {
+	background: url("../images/news-hot.png") no-repeat right top;
+	padding:2px;
+}
+	/*=============数字型幻灯开始=============*/
+	.slide {
+		width: 302px;
+		height: 426px;
+		overflow: hidden;
+		position: relative;
+	}
+	.slide ul.switchable-triggers {
+		position: absolute;
+		bottom:5px;
+		right:0;
+		z-index: 999;
+	}
+	.slide ul.switchable-triggers li{
+		width: 20px;
+		height: 20px;
+		border-radius:20px;
+		display: inline-block;
+		text-align: center;
+		margin-right:5px;
+		background: rgb(255, 255, 255);
+		background: rgb(255, 255, 255,.7);
+		cursor:pointer;
+	}
+	.slide ul.switchable-triggers li.current {
+		background: rgb(138, 181, 22);
+		background: rgba(138, 181, 22, .7);
+		color:#fff;
+		cursor:pointer;
+	}
+	.slide ul li {
+		width: 302px;
+		height: 426px;
+		float: left;
+		position: relative;
+	}
+	.slide ul li h3 {
+		position: absolute;
+		bottom:0;
+		left:0;
+		z-index: 1;
+		text-indent: 1em;
+		width:302px;
+		height: 30px;
+		line-height: 30px;
+		background: rgba(0,0,0,0.2);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4B000000,endColorstr=#4B000000);
+	}
+	.slide ul li h3 a {
+		color:#fff;
+	}
+	/*=============数字型幻灯结束=============*/
+	/*=============新闻标题开始=============*/
+	
+
+	.news-title-area {
+		margin:18px 18px 0 332px;
+	}
+	.news-title-area {
+		padding-bottom:10px;
+		border-bottom:1px dotted #8f8f8f;
+	}
+	.news-title div.last {
+		padding:0;
+		border:0;
+	}
+	.news-title-area h1 {
+		margin:10px 0;
+		text-align: center;
+	}
+	.news-title-area  h1 a{
+		color:#e85902;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.news-title-area  p {
+		line-height: 1.6;
+		text-indent: 2em;
+	}
+	.news-title-area ul {
+		overflow: hidden;
+		zoom:1;
+		margin-top:4px;
+		
+	}
+	.news-title-area ul li {
+		float: left;
+		display: inline;
+		width: 167px;
+		height: 22px;
+		
+		overflow: hidden;
+	}
+	.news-title-area ul li a {
+		color:#067bb1;
+	}
+	.news-title-area ul li a:hover {
+		color:red;
+	}
+	/*=============新闻标题结束=============*/
+/*=============热门新闻结束 mod1=============*/
+/*=============海峡专题 mod2 开始=============*/
+.mod2 .head h2 {
+	height: 35px;
+	width:100px;
+	background: url("../images/hbzt.png") no-repeat 10px 10px;
+	text-indent: -999em;
+}
+.mod2 .main img {
+	width: 227px;
+	height:137px;
+	padding:1px;
+	border:1px solid #d7d7d7;
+
+}
+.mod2 .main p {
+	padding-bottom:9px;
+	border-bottom:1px dotted #8f8f8f;
+	text-indent: 2em;
+}
+.mod2 .main ul li {
+	padding:5px 0;
+	overflow: hidden;
+	border-bottom:1px dotted #8f8f8f;
+	background: url("../images/arrow-li.png") no-repeat 10px 50%;
+	padding-left:30px;
+}
+/*=============海峡专题 mod2 结束=============*/
+/*=============热门推荐 mod3 结束=============*/
+.mod3 {
+	position: relative;
+}
+.mod3 .head {
+	position: relative;
+	background: none;
+}
+.mod3 h2 {
+	width:162px;
+	height: 50px;
+	background: url("../images/topRecommended.png") no-repeat;
+	text-indent: -999em;
+	margin-top:20px;
+	margin-left:20px;
+}
+.mod3 .main {
+
+	padding:10px 16px 9px 47px;
+	*padding:20px 16px 9px 47px;
+	background: url("../images/mod3-line.png") no-repeat 365px 15px;
+}
+.mod3 ul {
+	width: 300px;	
+
+}
+.mod3 ul li {
+	position: relative;
+	left:0;
+	top:0;
+	_position:static;
+	border-bottom:1px dotted #8f8f8f;
+	background: url("../images/list-li.png") no-repeat 10px 50%;
+	padding:4.6px 0 4.6px 20px;
+}
+
+.mod3 ul li a span {
+	color:#939393;
+	position: absolute;
+	right:10px;
+	bottom:5px;
+	vertical-align: middle;
+	cursor:pointer;
+}
+.mod3 .recommend {
+	position: absolute;
+	top:60px;
+	*top:50px;
+	left:-8px;
+}
+/*=============热门推荐 mod3 结束=============*/
+/*=============热门博文排行 mod4 开始=============*/
+.mod4 .head h2 {
+	height: 35px;
+	width:140px;
+	background: url("../images/lmbwph.png") no-repeat 10px 15px;
+	text-indent: -999em;
+}
+.mod4 .main ul {
+	background:url("../images/mod4-list.png") no-repeat 0 5px;
+	margin-top:11px;
+}
+.mod4 .main ul li {
+	line-height: 27px;
+	overflow: hidden;
+	border-bottom:1px dotted #8f8f8f;
+	padding-left:30px;
+}
+/*=============热门博文排行 mod4 结束=============*/
+/*=============热门活动 mod5 开始=============*/
+.mod5 {
+	position: relative;
+}
+.mod5 .head {
+	position: relative;
+	background: none;
+}
+.mod5 h2 {
+	width:162px;
+	height: 50px;
+	background: url("../images/popularActivities.png") no-repeat;
+	text-indent: -999em;
+	margin-top:20px;
+	margin-left:20px;
+}
+.mod5 .main {
+	margin:8px;
+	background: url("../images/mod5-line.png") no-repeat center;
+}
+
+.mod5 ul li{
+	width: 315px;
+	float: left;
+	display: inline;
+	padding:13px;
+}
+.mod5 ul li a img {
+	width: 130px;
+	height: 110px;
+	border:1px solid #ddd3cd;
+	padding:1px;
+}
+.mod5 ul li div {
+	margin-left:140px;
+}
+.mod5 ul li div h3 {
+	margin-bottom:5px;
+	font-weight: bold;
+}
+.mod5 ul li div h3 a{
+	color:#333;
+}
+.mod5 ul li div h3 a:hover {
+	color:red;
+}
+.mod5 ul li p {
+	text-indent: 2em;
+
+}
+/*=============热门活动 mod5 结束=============*/
+/*=============商家公告｜商家认领 mod6 开始=============*/
+.mod6 {	
+	width: 248px;
+	border:1px solid #d7d7d7;
+}
+.mod6 .head {
+	background: none;
+}
+.tab1 .head ul li {
+	padding-top:4px;
+	width: 123px;
+	height: 32px;
+	float: left;
+	display: inline;
+	cursor: pointer;
+}
+.tab1 .head ul li.active {
+	background: url("../images/mod6-active.gif")  center top;
+}
+.notic a {
+	width: 123px;
+	height: 32px;
+	border-right:1px solid #e0dcde;
+	display: block;
+	background: url("../images/mod6-tab-1.gif") center top;
+}
+.notic a.active {
+	background: url("../images/mod6-tab-hover1.gif")  center top;
+
+}
+.claim a {
+	width: 123px;
+	height: 32px;
+	display: block;
+	background: url("../images/mod6-tab-2.gif")  center top;
+}
+.claim a.active {
+	background: url("../images/mod6-tab-hover2.gif")  center top;
+}
+.tab1 .main  {
+	padding:8px;
+}
+.tab1 .main ul li {
+	padding:15px 0;
+	float: left;
+	display: inline;
+	border-bottom:1px dotted #8f8f8f;
+}
+.tab1 .main ul li.last {
+	border:0 none;
+}
+.tab1 .main ul li img {
+	width:89px;
+	height: 70px;
+	border:1px solid #ddd3cd;
+	padding:1px;
+}
+.tab1 .main ul li div{
+	margin-left:109px;
+}
+.tab1 .main ul li div h3 {
+	font-weight: bold;
+}
+/*=============商家公告｜商家认领 mod6 结束=============*/
+/*=============思想｜文史 mod7 开始=============*/
+.mod7 .cogiation {
+	width: 690px;
+}
+.mod7 .cogiation .head {
+	position: relative;
+	background: none;
+}
+.mod7 .cogiation .head h2 {
+	margin-top:15px;
+	margin-left:15px;
+	width: 152px;
+	height: 56px;
+	background: url("../images/cogiation.png") no-repeat;
+	text-indent: -999em;
+}
+.mod7 .cogiation .head a {
+	position: absolute;
+	font-family: Verdana,Arial;
+	right:26px;
+	top:16px;
+	color:#575757;
+}
+.mod7 .cogiation .head a:hover {
+	color:red;
+}
+.mod7 .cogiation .main {
+	background: url("../images/mod7-main-line.png") no-repeat 50% 0;
+	padding:15px 10px;
+}
+.mod7 .cogiation .main-content {
+	margin:0 10px;
+	width:315px;
+}
+.mod7 .cogiation .main-content-top {
+	padding-bottom:10px;
+	border-bottom:1px dotted #8f8f8f;
+}
+.mod7 .cogiation .main-content-top img {
+	width: 130px;
+	height: 87px;
+	border:1px solid #ddd3cd;
+	padding:1px;
+}
+.mod7 .cogiation .main-content-top div {
+	margin-left:140px;
+}
+.mod7 .cogiation .main-content-top h3 {
+	margin-bottom:5px;
+	font-weight: bold;
+}
+.mod7 .cogiation .main-content-top p {
+	text-indent: 2em;
+}
+.mod7 .cogiation .main-content-bottom ul li {
+	position: relative;
+	left:0;
+	top:0;
+	_position:static;
+	border-bottom:1px dotted #8f8f8f;
+	background: url("../images/list-li.png") no-repeat 10px 50%;
+	padding:4.6px 0 4.6px 20px;
+}
+
+.mod7 .cogiation .main-content-bottom ul li a span {
+	color:#939393;
+	position: absolute;
+	right:10px;
+	bottom:5px;
+	vertical-align: middle;
+	cursor:pointer;
+}
+.mod7 .historyToday {
+	width: 250px;
+	margin-right:5px;
+}
+.mod7 .historyToday .head {
+	background: none;
+}
+.mod7 .historyToday h2 {
+	width: 176px;
+	height:46px;
+	background: url("../images/historytoday.png") no-repeat;
+	text-indent: -999em;
+}
+.mod7 .historyToday .main {
+	margin-top:10px;
+	width:249px;
+	height: 274px;
+	 background: url("../images/historytoday-tip.png") no-repeat;
+}
+.mod7 .historyToday .main div.date {
+	margin:5px 0 5px 60px;
+	color:red;
+}
+.mod7 .historyToday .main div.date img {
+	vertical-align: middle;
+	margin:0 5px;
+}
+.mod7 .historyToday .main div.content {
+	width: 224px;
+	padding:10px;
+
+}
+.mod7 .historyToday .main div.content a img {
+	width:219px;
+	height: 129px;
+	margin: 0 auto;
+	border:1px solid #ddd3cd;
+	padding:1px;
+}
+.mod7 .historyToday .main div.content h3 {
+	text-align: center;
+	font-weight: bold;
+	margin:5px 0;
+}
+/*=============思想｜文史 mod7 结束=============*/
+/*=============生活记录 mod8 开始=============*/
+.mod8 .head {
+	background: none;
+}
+.mod8 .head h2 {
+	margin-left:15px;
+	margin-top:15px;
+	width: 115px;
+	height: 48px;
+	background: url("../images/lifeRecord.png") no-repeat;
+	text-indent: -999em;
+}
+.mod8 .main {
+	padding:18px 18px 5px 18px;
+	background: url("../images/mod8-line.png") no-repeat 50%;
+}
+.mod8 .main div {
+	color: #fff;
+	font-weight: bold;
+	width:452px;
+	height: 31px;
+	background: url("../images/mod8-title.png") no-repeat;
+	line-height: 26px;
+}
+.mod8 .main h4 {
+	font-size: 14px;
+	padding-left:8px;
+}
+.mod8 .main div span {
+	margin-left:5px;
+	color: #000;
+	font-weight: bold;
+}
+.mod8 .main dl {
+	width: 452px;
+}
+.mod8 .main dl dd {
+	margin-bottom: 18px;
+	*margin-bottom:14px;
+}
+.mod8 .main dl dt{
+	margin-bottom:14px;
+
+	}
+.mod8 .main dl dd a.first {
+	margin:0;
+}
+.mod8 .main dl dd a {
+	position: relative;
+	display: block;
+	float: left;
+	margin-left: 16px;
+	
+}
+
+.mod8 .main dl dd a img {
+	width: 132px;
+	height: 132px;
+	border:1px solid #ddd3cd;
+	padding: 1px;
+}
+.mod8 .main dl dd a span {
+	position: absolute;
+	height: 28px;
+	line-height: 28px;
+	width: 132px;
+	bottom:0;
+	left:2px;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4B000000,endColorstr=#4B000000);
+	background: rgba(0,0,0,0.2);
+	color:#fff;
+	text-align:center;
+}
+.mod8 .main ul li {
+	position: relative;
+	left:0;
+	top:0;
+	_position:static;
+	border-bottom:1px dotted #8f8f8f;
+	background: url("../images/list-li.png") no-repeat 10px 50%;
+	padding:4.6px 0 4.6px 20px;
+	margin-bottom:0;
+}
+.mod8 .main ul li a span {
+	color:#939393;
+	position: absolute;
+	right:10px;
+	bottom:5px;
+	vertical-align: middle;
+	cursor:pointer;
+}
+/*=============生活记录 mod8 结束=============*/
+/*=============旅游摄影 mod9 结束=============*/
+.mod9 .head {
+	background: none;
+}
+.mod9 .head h2 {
+	margin-left:15px;
+	margin-top:15px;
+	width: 166px;
+	height: 48px;
+	background: url("../images/travelPhotography.png") no-repeat;
+	text-indent: -999em;
+}
+.mod9 .main {
+	margin:18px 18px 0 18px;
+}
+.mod9 .main  dl.main-l {
+	width: 280px;
+	height: 294px;
+	border:1px solid #ddd3cd;
+	padding:1px;
+	position: relative;
+	
+}
+.mod9 .main .main-l img {
+	display: block;
+	width: 280px;
+	height: 294px;
+	
+	
+}
+.mod9 .main dl.main-l dt {
+	position: absolute;
+	bottom:1px;
+	left:1px;
+	width: 280px;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4B000000,endColorstr=#4B000000);
+	background: rgba(0,0,0,0.2);;
+	text-align: center;
+}
+.mod9 .main dl.main-l dt a {
+	color: #fff;
+	height: 28px;
+	line-height: 28px;
+}
+.mod9 .main .main-m {
+	width: 410px;
+	margin:0 15px;
+}
+.mod9 .main .main-m h1 {
+	text-align: center;
+	margin-bottom:10px;
+}
+.mod9 .main .main-m h1 a {
+	color:#e85902;
+	font-size: 16px;
+	font-weight: bold;
+}
+.mod9 .main .main-m p {
+	line-height: 1.5;
+	text-indent: 2em;
+	padding-bottom:5px;
+	border-bottom:1px dotted #8f8f8f;
+}
+.mod9 .main .main-m ul li {
+	position: relative;
+	left:0;
+	top:0;
+	_position:static;
+	border-bottom:1px dotted #8f8f8f;
+	background: url("../images/list-li.png") no-repeat 10px 50%;
+	padding:5px 0 5px 20px;
+
+	margin-bottom:0;
+}
+.mod9 .main .main-m ul li a span {
+	color:#939393;
+	position: absolute;
+	right:10px;
+	bottom:5px;
+	vertical-align: middle;
+	cursor:pointer;
+}
+.mod9 .main .main-r dl{
+	width: 194px;
+	height: 142px;
+	margin-bottom:14px;
+	position: relative;
+	
+}
+.mod9 .main .main-r img {
+	width: 190px;
+	height: 138px;
+	border:1px solid #ddd3cd;
+	padding:1px;
+	display: block;
+	
+}
+.mod9 .main .main-r dl dt {
+	position: absolute;
+	bottom:2px;
+	left:2px;
+	width: 190px;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4B000000,endColorstr=#4B000000);
+	background: rgba(0,0,0,0.2);
+	text-align: center;
+}
+.mod9 .main .main-r dl dt a {
+	color: #fff;
+	height: 28px;
+	line-height: 28px;
+}
+/*=============旅游摄影 mod9 结束=============*/
+/*=============亲子教育 mod10开始=============*/
+.mod10 .head {
+	background: none;
+	position: relative;
+}
+.mod10 .head h2 {
+	background: url("../images/parentingEducation.png") no-repeat;
+	width: 169px;
+	height: 50px;
+	margin-left: 15px;
+	margin-top: 15px;
+	text-indent: -999em;
+}
+.mod10 .main  {
+	margin:10px;
+}
+.mod10 .main .main-l {
+	width: 154px;
+	margin:0 10px;
+}
+.mod10 .main .main-l a {
+	position: relative;
+	width: 154px;
+	height: 104px;
+	display: block;
+	margin:10px 0;
+	border:1px solid #ddd3cd;
+	padding:1px;
+}
+.mod10 .main .main-l img {
+	display: block;
+	width: 154px;
+	height: 104px;
+	
+}
+.mod10 .main .main-l span {
+	position: absolute;
+	bottom:1px;
+	left:1px;
+	height: 28px;
+	line-height:28px;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4B000000,endColorstr=#4B000000);
+	background: rgba(0,0,0,0.2);
+	text-align:center;
+	width: 154px;
+	color:#fff;
+}
+.mod10 .main .main-r ul {
+	width: 260px;
+	margin-right: 10px;
+}
+.mod10 .main .main-r ul li {
+	border-bottom:1px dotted #8f8f8f;
+	background: url("../images/list-li.png") no-repeat 10px 50%;
+	padding:5px 0 5px 20px;
+}
+/*=============亲子教育 mod10结束=============*/
+/*=============健康养生 mod11开始=============*/
+.mod11 .head {
+	background: none;
+	position: relative;
+}
+.mod11 .head h2 {
+	background: url("../images/health.png") no-repeat;
+	width: 131px;
+	height: 50px;
+	margin-left: 15px;
+	margin-top: 15px;
+	text-indent:  -999em;
+}
+.mod11 .main  {
+	margin:10px;
+}
+.mod11 .main .main-l {
+	width: 154px;
+	margin:0 10px;
+}
+.mod11 .main .main-l a {
+	width: 154px;
+	height: 104px;
+	position: relative;
+	display: block;
+	margin:10px 0;
+	border:1px solid #ddd3cd;
+	padding:1px;
+}
+.mod11 .main .main-l img {
+	display: block;
+	width: 154px;
+	height: 104px;
+	
+}
+.mod11 .main .main-l span {
+	position: absolute;
+	bottom:1px;
+	left:1px;
+	height: 28px;
+	line-height:28px;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4B000000,endColorstr=#4B000000);
+	background: rgba(0,0,0,0.2);
+	text-align:center;
+	width: 154px;
+	color:#fff;
+}
+.mod11 .main .main-r ul {
+	width: 260px;
+	margin-right: 10px;
+}
+.mod11 .main .main-r ul li {
+	border-bottom:1px dotted #8f8f8f;
+	background: url("../images/list-li.png") no-repeat 10px 50%;
+	padding:5px 0 5px 20px;
+	
+}
+/*=============健康养生 mod11结束=============*/
+/*=============图片博客 mod12开始=============*/
+.mod12 .head {
+	background: none;
+}
+.mod12 .head h2 {
+	background: url("../images/mod12-h2.png") no-repeat;
+	text-indent: -999em;
+	width: 117px;
+	height: 54px;
+	margin-top:-10px;
+	margin-left:18px;
+}
+.mod12 .main {
+	margin:10px 5px;
+}
+.mod12 .main ul {
+	margin-left:2px;
+}
+
+.mod12 .main li.first {
+	width: 301px;
+}
+.mod12 .main li.first img {
+	width: 301px;
+	height: 238px;
+}
+.mod12 .main li.first h3 {
+	font-size: 14px;
+	display: block;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	font-weight: normal;
+}
+.mod12 .main li {
+	width: 143px;
+	margin:7px;
+	float: left;
+	display:inline;
+}
+.mod12 .main li img {
+	display: block;
+	width: 143px;
+	height: 99px;
+}
+.mod12 .main li h4 {
+	display: block;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	font-weight: normal;
+}
+
+/*=============图片博客 mod12结束=============*/
+/*=============影视娱乐 mod13开始=============*/
+.mod13 .head {
+	background: none;
+}
+.mod13 .head h2 {
+	width: 126px;
+	height: 48px;
+	background: url("../images/movie.png") no-repeat;
+	text-indent: -999em;
+	margin-top:15px;
+	margin-left: 15px;
+}
+.mod13 .main {
+	background: url("../images/mod13-line.png") no-repeat center 160px;
+	margin-left:5px;
+}
+.mod13 .main dl {
+	padding:10px;
+
+}
+.mod13 .main dd {
+	width: 212px;
+	
+}
+.mod13 .main dd a {
+	width: 208px;
+	height: 141px;
+	color: #fff;
+	border:1px solid #ddd3cd;
+	padding:1px;
+	position: relative;
+	display: block;
+}
+.mod13 .main img {
+	width: 208px;
+	height: 141px;
+	display: block;
+}
+.mod13 .main dd a span {
+	position: absolute;
+	bottom:0;
+	left:1px;
+	width: 208px;
+	height: 28px;
+	line-height: 28px;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4B000000,endColorstr=#4B000000);
+	background: rgba(0,0,0,0.2);
+	text-align: center;
+}
+.mod13 .main  dl dt {
+	width: 188px;
+	border-bottom:1px dotted #8f8f8f;
+	background: url("../images/list-li.png") no-repeat 10px 50%;
+	padding:5px 0 5px 20px;
+	
+}
+/*=============影视娱乐 mod13结束=============*/
+/*=============房产理财 mod14开始=============*/
+.mod14 .head {
+	background: none;
+}
+.mod14 .head h2 {
+	background:url("../images/house.png") no-repeat 0 0;
+	width: 168px;
+	height: 46px;
+	margin-top: 15px;
+	margin-left: 15px;
+	text-indent: -999em;
+}
+.mod14 .main {
+	margin:2px 10px;
+}
+.mod14 .main ul {
+	border-bottom:1px dotted #8f8f8f;
+	margin-top:5px;
+	padding-bottom:5px;
+}
+.mod14 .main ul.last {
+	border:0;
+}
+.mod14 .main ul li {
+	background: url("../images/list-li.png") no-repeat 10px 50%;
+	padding:4px 0 4px 20px;
+	position: relative;
+}
+.mod14 .main ul li a span {
+	color:#939393;
+	position: absolute;
+	right:10px;
+	bottom:5px;
+	vertical-align: middle;
+	cursor:pointer;
+}
+/*=============房产理财 mod14结束=============*/
+/*=============海峡相册 mod15开始=============*/
+.mod15 .head {
+	background: none;
+}
+.mod15 .head h2 {
+	background: url("../images/photo.png") no-repeat 0 0;
+	text-indent: -999em;
+	width: 117px;
+	height: 54px;
+	margin-top:-10px;
+	margin-left:18px;
+}
+.mod15 .main ul {
+	margin-left:2px;
+	margin-top:20px;
+	margin-bottom: 10px;
+}
+.mod15 .main ul li {
+	float: left;
+	display: inline;
+	width: 149px;
+	margin:0 5px;
+}
+.mod15 .main ul li img {
+	background: #fff;
+	display: block;
+	width: 135px;
+	height: 90px;
+	padding:6px;
+	border:1px solid #ddd3cd;
+}
+.mod15 .main ul li h4 {
+	font-weight: normal;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+}
+/*=============海峡相册 mod15结束=============*/
+/*=============海博草根名博 mod16开始=============*/
+.mod16 .head {
+	background: none;
+}
+.mod16 {
+	position: relative;
+}
+.mod16 .head h2 {
+	margin-left: 15px;
+	margin-top: 15px;
+	background: url("../images/blog.png") no-repeat;
+	width: 166px;
+	height: 46px;
+	text-indent: -999em;
+}
+.mod16 .main {
+	position: relative;
+	width: 900px;
+	height: 316px;
+	margin:10px 30px;
+	overflow: hidden;
+}
+.mod16 .scrollable {
+	width: 3600px;
+	position: absolute;
+}
+.mod16 .main ul {
+	width: 900px;
+	float: left;
+	display: inline;
+}
+.mod16 .main ul li{
+	float: left;
+	display: inline;
+	margin:10px 5px;
+	position: relative;
+}
+.mod16 .main ul li a {
+	
+	display: block;
+	color:#fff;
+}
+.mod16 .main ul li a img {
+	display: block;
+	width: 55px;
+	height: 55px;
+	border:1px solid #ddd3cd;
+	padding:1px;
+}
+.mod16 .main ul li span {
+	width: 55px;
+	position: absolute;
+	text-align: center;
+	bottom:2px;
+	_bottom:1px;
+	left:2px;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4B000000,endColorstr=#4B000000);
+	background: rgba(0,0,0,0.2);
+}
+.mod16 .prev {
+	position:absolute;
+	width: 17px;
+	height: 47px;
+	left:10px;
+	top:200px;
+	z-index: 1;
+	cursor:pointer;
+}
+.mod16 .next {
+	position:absolute;
+	width: 17px;
+	height: 47px;
+	right:10px;
+	top:200px;
+	z-index: 1;
+	cursor:pointer;
+}
+/*=============海博草根名博 mod16结束=============*/

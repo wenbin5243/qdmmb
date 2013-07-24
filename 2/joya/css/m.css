@@ -1,0 +1,134 @@
+/*=============公共模块commonModA 海峡专题、热门博文排行、=============*/
+.commonModA {	
+	width: 248px;
+	border:1px solid #d7d7d7;
+}
+.commonModA .head {
+	position: relative;
+	background: url("../images/commonModA-head.png") no-repeat top left; 
+}
+.commonModA .head a {
+	position: absolute;
+	right:15px;
+	top:18px;
+	font-family:Verdana,Arial;
+	color:#575757;
+}
+.commonModA .head a:hover {
+	color:red;
+}
+.commonModA .main {
+	padding:8px;
+}
+.commonModA .main h3 {
+	margin:5px 0;
+	text-align: center;
+}
+.commonModA .main h3 a {
+
+	color:#333333;
+	font-weight: bold;
+	
+}
+.commonModA .main h3 a:hover {
+	color:red;
+}
+/*=============公共模块commonModB 热门推荐、热门活动=============*/
+.commonModB {
+	width: 702px;
+	background: url("../images/commonModB-bg.png") no-repeat 1px 1px;
+	border:1px solid #dfa46f;
+}
+.commonModB .head a {
+	position: absolute;
+	font-family: Verdana,Arial;
+	right:26px;
+	top:16px;
+	color:#575757;
+}
+.commonModB .head a:hover {
+	color:red;
+}
+/*=============公共模块commonModC 思想｜文史、生活记录、旅游摄影、海博草根名博=============*/
+.commonModC {
+	position: relative;
+	width: 960px;
+	background: url("../images/commonModC-bg.png") no-repeat 1px 1px;
+	border:1px solid #dfa46f;
+}
+
+.commonModC .head  a {
+	position: absolute;
+	font-family: Verdana,Arial;
+	right:26px;
+	top:26px;
+	color:#575757;
+}
+.commonModC .head  a:hover {
+	color:red;
+} 
+
+/*=============公共模块commonModD 亲子教育、健康养生、影视娱乐、房产理财=============*/
+.commonModD {
+	position: relative;
+	width: 473px;
+	background: url("../images/commonModD-bg.png") no-repeat 1px 1px;
+	border:1px solid #dfa46f;
+}
+
+.commonModD .head  a.more {
+	position: absolute;
+	font-family: Verdana,Arial;
+	right:26px; 
+	top:26px;
+	color:#575757;
+}
+.commonModD .head  a:hover {
+	color:red;
+}
+.commonModD .head ul {
+	margin-top:26px;
+	margin-right:65px;
+	position: relative;
+
+}
+.commonModD .head ul li {
+	float: left;
+
+}
+.commonModD .head ul li a{
+	padding:0 10px;
+	width: 48px;
+	height: 24px;
+	display:block;
+	background: url("../images/tab-line.png") no-repeat 100% 30%;
+}
+.commonModD .head ul li a.last{
+	background: none;
+	}
+.commonModD .head ul li.active {
+	background: url("../images/commonModD-active.gif") no-repeat center bottom;
+}
+
+/*=============公共模块commonModE 图片博客、海峡相册=============*/
+.commonModE {
+	position: relative;
+	width: 960px;
+	background: url("../images/commonModE-bg.png") no-repeat 1px 1px;
+	border:1px solid #dfa46f;
+	margin-top:14px;
+}
+
+.commonModE .head  a {
+	position: absolute;
+	font-family: Verdana,Arial;
+	right:26px;
+	top:16px;
+	color:#575757;
+}
+.commonModE .head  a:hover {
+	color:red;
+} 
+
+
+ 
