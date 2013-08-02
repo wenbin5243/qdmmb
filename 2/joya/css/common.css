@@ -1,0 +1,189 @@
+body{
+	font-size: 12px;
+	font-family: "宋体",Verdana,Arial;
+	color:#393939;
+}
+a{
+	color:#393939;
+}
+a:hover {
+	color:red;
+}
+.wrap {
+	width:962px;
+	margin:0 auto;
+}
+
+.area {
+	margin-bottom:10px;
+}
+.main .ad {
+	margin-bottom:10px;
+}
+.hide {
+	display: none;
+}
+/*=============头部广告、LOGO、天气、查询开始=============*/
+.head{	
+	background: url("../images/headbg.png") repeat-x;
+	width: 100%;
+}
+.head .ad {
+	padding-top:5px;
+}
+.head-main {
+	overflow: hidden;
+	zoom:1;
+	margin-top:20px;
+}
+.logo {
+	width: 206px;
+	height: 78px;
+}
+.line {
+	margin:15px 5px 0 5px;
+}
+.search {
+	width: 448px;
+}
+.search p {
+	color:#dcdcdc;
+}
+.search p a{
+	width:35px;
+	display: inline-block;
+	background: url("../images/xmnnhead-myblog.png") no-repeat 100% 50%;
+}
+.search div.search-contain{
+	margin:5px 0 10px 0;
+	width:100%;
+	height: 27px;
+}
+.search input{
+	width: 345px;
+	height: 25px;
+	border:1px solid #cdbbae;
+	border-right:0;
+	padding:0 0 0 30px;
+	background: url("../images/search-contain-input.png") no-repeat 10px 50%;
+}
+.search button{
+	cursor:pointer;
+	color:#fff;
+	font-weight: bold;
+	border:0;
+	width: 66px;
+	height: 27px;
+	background: url("../images/search-btn.png") no-repeat;
+	padding:0;
+}
+
+.search dt {
+	float: left;
+	display: inline;
+	font-weight: bold;
+}
+.search dd{
+	float: left;
+	display: inline;
+	padding:0 20px 0 0;
+}
+/*=============头部广告、LOGO、天气、查询结束=============*/
+/*=============头部导航开始=============*/
+.nav {
+	width: 100%;
+	height: 50px;
+	margin:20px 0 0 0;
+	background: url("../images/navbg.png") repeat-x;
+}
+.nav ul li {
+	float: left;
+	display: inline;
+	background: url("../images/nav-line.png") no-repeat 100% 40%;
+	position: relative;
+	height: 50px;
+}
+.nav ul li div {
+	background:url("../images/nav-hot.png") no-repeat 0 0;
+	width:27px;
+	height: 14px;
+	position: absolute;
+	top:-5px;
+	left:50%;
+	text-indent: -999em;
+
+}
+.nav ul li.last {
+	background: none;
+}
+.nav ul li a{
+	display: inline-block;
+	color:#fff;
+	font-size: 14px;
+	padding:0 14px;
+	font-weight: bold;
+	height: 50px;
+	line-height: 44px;
+}
+.nav ul li a:hover {
+	color:#fff;
+	background: url("../images/nav-hoverbg.png") no-repeat center top;
+}
+/*=============头部导航结束=============*/
+/*=============尾部开始=============*/
+.footer {
+	padding-bottom:20px;
+}
+.footer .wrap{
+	border-top:4px solid #f17b03;
+}
+.footer .link {
+	padding:8px 0;
+	border-bottom:1px solid #ddd3cd;
+}
+.footer .link h3 {
+	display: inline;
+	font-weight: bold;
+}
+.footer .area {
+	border-bottom:1px solid #ddd3cd;
+	padding:10px 0;
+}
+.footer .area p {
+	padding:2px 0 2px 10px;
+}
+.footer .area p.copyright {
+	font-family:Arial;
+}
+.footer .area-text {
+	position: relative;
+}
+.footer .area-text p {
+	padding: 1px 0;
+	text-align: center;
+}
+.footer .area-text p.link {
+	border:0 none;
+	color: #e86800;
+}
+.footer .area-text p.link a {
+	color: #e86800;
+}
+.footer a.police {
+	width: 50px;
+	height: 46px;
+	position: absolute;
+	top: 24px;
+	left: 140px;
+}
+.footer a.jubao {
+	width: 86px;
+	height: 36px;
+	position: absolute;
+	top: 24px;
+	right: 90px;
+}
+.footer a.police img,.footer a.jubao img {
+	display: block;
+}
+/*=============尾部结束=============*/
