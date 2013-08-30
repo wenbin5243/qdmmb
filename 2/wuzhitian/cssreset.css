@@ -1,0 +1,7 @@
+body,ul,ol,li,p,fieldset,input,h1,h2,h3,h4,h5,img{margin:0;padding:0;}
+a{text-decoration:none;}
+ul,ol,li{list-style:none;}
+img{border:none;}
+
+/*IE6*/
+form{margin:0px;padding:0px;}
